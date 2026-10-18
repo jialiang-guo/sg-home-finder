@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-18T14:07:14.491154+00:00",
-  "last_success": null,
+  "updated_at": "2026-10-18T14:23:19.630857+00:00",
+  "last_success": "2026-10-18T14:23:19.630857+00:00",
   "criteria": {
     "budget": 2500,
     "max_age": 10,
@@ -14,29 +14,26 @@
     "optional_stations": [
       "one-north"
     ],
-    "seed_urls": [
-      "https://cove.sg/listings/334-cove-9-jr-master-en-suite-room-commonwealth-towers",
-      "https://cove.sg/listings/335-cove-9-master-en-suite-room-commonwealth-towers"
-    ],
-    "discovery_urls": [
-      "https://cove.sg/sitemap.xml"
-    ],
+    "seed_urls": [],
+    "discovery_urls": [],
     "max_pages": 60,
-    "request_delay": 3
+    "request_delay": 3,
+    "cove_enabled": false,
+    "ris_enabled": true,
+    "ris_discovery": [
+      "https://rentinsingapore.com.sg/condo-room-for-rent/queenstown",
+      "https://rentinsingapore.com.sg/rooms-for-rent/buona-vista",
+      "https://rentinsingapore.com.sg/rooms-for-rent/tiong-bahru"
+    ],
+    "ris_seed_urls": [
+      "https://rentinsingapore.com.sg/ID365031"
+    ],
+    "ris_max_pages": 20
   },
   "source_status": {
-    "attempted": 2,
-    "refreshed": 0,
-    "errors": [
-      {
-        "url": "https://cove.sg/listings/334-cove-9-jr-master-en-suite-room-commonwealth-towers",
-        "error": "Disallowed by robots.txt"
-      },
-      {
-        "url": "https://cove.sg/listings/335-cove-9-master-en-suite-room-commonwealth-towers",
-        "error": "Disallowed by robots.txt"
-      }
-    ]
+    "attempted": 20,
+    "refreshed": 20,
+    "errors": []
   },
   "listings": [
     {
@@ -74,6 +71,506 @@
       "stale": true,
       "status": "review",
       "price_history": []
+    },
+    {
+      "id": "4d205f13dadeb0fe5532",
+      "url": "https://rentinsingapore.com.sg/ID365031",
+      "title": "Spacious Master Room For Rent Available From Early November 2026",
+      "source": "RentInSingapore",
+      "price": 2500.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "master",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "03.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 2500.0
+        }
+      ],
+      "status": "review"
+    },
+    {
+      "id": "305b4e32402a9b1ea4d5",
+      "url": "https://rentinsingapore.com.sg/ID819603",
+      "title": "CR4 – Common Room for Rent at Dover Parkview",
+      "source": "RentInSingapore",
+      "price": 1690.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "common",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "14.09.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 1690.0
+        }
+      ],
+      "status": "review"
+    },
+    {
+      "id": "2e1ee07be43b9093affd",
+      "url": "https://rentinsingapore.com.sg/ID736275",
+      "title": "Common Room available @ Dover Crescent",
+      "source": "RentInSingapore",
+      "price": 970.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "common",
+      "built": null,
+      "condo": false,
+      "property_type": "hdb",
+      "availability": "unknown",
+      "published": "18.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 970.0
+        }
+      ],
+      "status": "excluded"
+    },
+    {
+      "id": "c3e9fe7d14cbb07bba99",
+      "url": "https://rentinsingapore.com.sg/ID373167",
+      "title": "Great place with nice view & friendly landlord",
+      "source": "RentInSingapore",
+      "price": 1250.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": false,
+      "property_type": "hdb",
+      "availability": "unknown",
+      "published": "13.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 1250.0
+        }
+      ],
+      "status": "excluded"
+    },
+    {
+      "id": "4a3466647c177defdcb4",
+      "url": "https://rentinsingapore.com.sg/ID691662",
+      "title": "Heritage View  FULLY Furnished CONDO Co-LIving Environ  $1390 pm Inclusive of Utilities near Insead",
+      "source": "RentInSingapore",
+      "price": 1390.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "12.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 1390.0
+        }
+      ],
+      "status": "review"
+    },
+    {
+      "id": "9029bef50aa28cbb1944",
+      "url": "https://rentinsingapore.com.sg/ID691665",
+      "title": "Heritage View  FULLY Furnished CONDO Co-LIving Environ  $1690 pm Inclusive of Utilities near Insead",
+      "source": "RentInSingapore",
+      "price": 1690.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "12.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 1690.0
+        }
+      ],
+      "status": "review"
+    },
+    {
+      "id": "60b7bf8c57bcc663ebd4",
+      "url": "https://rentinsingapore.com.sg/ID691666",
+      "title": "Heritage View  MBR   FULLY Furnished CONDO Co-LIving Environ  $2490  pm Inclusive of Utilities",
+      "source": "RentInSingapore",
+      "price": 2490.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "12.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 2490.0
+        }
+      ],
+      "status": "review"
+    },
+    {
+      "id": "22ce8551737259b76ee0",
+      "url": "https://rentinsingapore.com.sg/ID704371",
+      "title": "NEW Dover Park View $1699 near Insead ,One-north ,Fusionopolis, Bio polis, NUH, NUS,  , SIM and ES",
+      "source": "RentInSingapore",
+      "price": 1699.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "12.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 1699.0
+        }
+      ],
+      "status": "review"
+    },
+    {
+      "id": "bb8de347b3068909586c",
+      "url": "https://rentinsingapore.com.sg/ID704373",
+      "title": "Sought after Dover Park View Ensuite $2200 near Insead ,One-north ,Fusionopolis, Bio polis,NUS, , ES",
+      "source": "RentInSingapore",
+      "price": 2200.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "master",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "12.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 2200.0
+        }
+      ],
+      "status": "review"
+    },
+    {
+      "id": "b54aeb7d515459b20f8b",
+      "url": "https://rentinsingapore.com.sg/ID704376",
+      "title": "NEW Dover Park View $1399 near Insead ,One-north ,Fusionopolis, Bio polis, NUH, NUS, , SIM and ES",
+      "source": "RentInSingapore",
+      "price": 1399.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "12.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 1399.0
+        }
+      ],
+      "status": "review"
+    },
+    {
+      "id": "3d648cbc97c9ba160209",
+      "url": "https://rentinsingapore.com.sg/ID808453",
+      "title": "Room for Rent – HERITAGE VIEW TOWER A #05-08 (ECON 1)",
+      "source": "RentInSingapore",
+      "price": 1290.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "12.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 1290.0
+        }
+      ],
+      "status": "review"
+    },
+    {
+      "id": "3dae3b34d501db41bc2a",
+      "url": "https://rentinsingapore.com.sg/ID808456",
+      "title": "Room for Rent – HERITAGE VIEW TOWER A #05-08 (ECON 1)",
+      "source": "RentInSingapore",
+      "price": 1200.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "12.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 1200.0
+        }
+      ],
+      "status": "review"
+    },
+    {
+      "id": "4599868c9dbbcfaf758f",
+      "url": "https://rentinsingapore.com.sg/ID821793",
+      "title": "Tiong Bahru room for rent",
+      "source": "RentInSingapore",
+      "price": 750.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": false,
+      "property_type": "hdb",
+      "availability": "unknown",
+      "published": "17.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 750.0
+        }
+      ],
+      "status": "excluded"
+    },
+    {
+      "id": "5e8bff5f5984facab715",
+      "url": "https://rentinsingapore.com.sg/ID821657",
+      "title": "Common Room @ Telok blangah Drive BLK 51! Single female owner!",
+      "source": "RentInSingapore",
+      "price": 900.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "common",
+      "built": null,
+      "condo": false,
+      "property_type": "hdb",
+      "availability": "unknown",
+      "published": "14.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 900.0
+        }
+      ],
+      "status": "excluded"
+    },
+    {
+      "id": "a6aefb4c9c1d3d82d67f",
+      "url": "https://rentinsingapore.com.sg/ID808249",
+      "title": "Meraprime  FULLY Furnished CONDO Co-LIving Environ  $1250 Inclusive of Utilities near (1 min walk fr",
+      "source": "RentInSingapore",
+      "price": 1250.0,
+      "station": null,
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "12.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 1250.0
+        }
+      ],
+      "status": "review"
+    },
+    {
+      "id": "3789497e626c27eb014c",
+      "url": "https://rentinsingapore.com.sg/ID758453",
+      "title": "●LADY BEDSPACES●@🟢🟡BUONA VISTA MRT(near A*STAR, NUS, SIM, NUH, SP, ESSEC, MDIS, BIOPOLIS@1North",
+      "source": "RentInSingapore",
+      "price": 530.0,
+      "station": "Buona Vista",
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": false,
+      "property_type": "hdb",
+      "availability": "unknown",
+      "published": "09.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 530.0
+        }
+      ],
+      "status": "excluded"
+    },
+    {
+      "id": "11d9e36047e0dcc1cc9a",
+      "url": "https://rentinsingapore.com.sg/ID456751",
+      "title": "Tiong Bahru MRT 2 Mins Walk,Full Condo Facilities - Queen Room - Immediate Available",
+      "source": "RentInSingapore",
+      "price": 1350.0,
+      "station": "Tiong Bahru",
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "05.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 1350.0
+        }
+      ],
+      "status": "review"
+    },
+    {
+      "id": "218609c6dba5122d0b60",
+      "url": "https://rentinsingapore.com.sg/ID821128",
+      "title": "Spacious Common Room (walkable distance to Tiong bahru MRT)",
+      "source": "RentInSingapore",
+      "price": 1200.0,
+      "station": "Tiong Bahru",
+      "walk_minutes": null,
+      "room": "common",
+      "built": null,
+      "condo": false,
+      "property_type": "hdb",
+      "availability": "unknown",
+      "published": "05.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 1200.0
+        }
+      ],
+      "status": "excluded"
+    },
+    {
+      "id": "7018bee45a9765929659",
+      "url": "https://rentinsingapore.com.sg/ID750666",
+      "title": "●LADY BEDSPACES●@🟢🟡BUONA VISTA MRT(near A*STAR, NUS, SIM, NUH, SP, ESSEC, MDIS, BIOPOLIS@1North",
+      "source": "RentInSingapore",
+      "price": 530.0,
+      "station": "Buona Vista",
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": false,
+      "property_type": "hdb",
+      "availability": "unknown",
+      "published": "05.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 530.0
+        }
+      ],
+      "status": "excluded"
+    },
+    {
+      "id": "14f02b6c4914d67cb265",
+      "url": "https://rentinsingapore.com.sg/ID559796",
+      "title": "Just right opposite Tiong Bahru MRT - Queen Room for Rent .",
+      "source": "RentInSingapore",
+      "price": 2000.0,
+      "station": "Tiong Bahru",
+      "walk_minutes": null,
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "05.10.2026",
+      "first_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-18T14:23:19.630857+00:00",
+          "price": 2000.0
+        }
+      ],
+      "status": "review"
     }
   ]
 }
