@@ -2,6 +2,9 @@
 const $=s=>document.querySelector(s);
 let data=null,decisions={},tab='all',selectionReady=false;
 function key(i){const u=new URL(i.url);let m;if(u.hostname==='rentinsingapore.com.sg'&&(m=u.pathname.match(/^\/ID(\d+)\/?$/)))return 'RentInSingapore:'+m[1];if(u.hostname==='cove.sg'&&(m=u.pathname.match(/^\/listings\/(\d+)(?:-|\/|$)/)))return 'Cove:'+m[1];return 'legacy:'+i.id;}
+const amenityNames={"gym": "健身房", "pool": "泳池", "bbq": "BBQ", "tennis": "網球場", "playground": "遊樂場", "security": "24 小時保全"};
+function amenityValue(i,k){return i.amenities?.[k]?.value??null;}
+function matchesAmenities(i){return [...document.querySelectorAll('[data-amenity]')].every(s=>{const v=amenityValue(i,s.dataset.amenity);return !s.value||(s.value==='yes'?v===true:s.value==='no'?v===false:v!==false);});}
 function choice(i){return decisions[key(i)]?.decision||'reset';}
 function el(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;}
 async function load(){
@@ -37,7 +40,7 @@ function reasons(i){const a=[];
  return a.length?a:['資料符合已設定條件'];}
 function render(){if(!data||!selectionReady)return;
  let items=data.listings.filter(i=>{const c=choice(i);if(tab==='rejected')return c==='reject';if(c==='reject')return false;if(tab==='saved')return c==='keep';if(tab==='all')return i.status!=='excluded';return i.status===tab;});
- const q=$('#search').value.toLowerCase();items=items.filter(i=>(i.title+' '+(i.station||'')+' '+key(i)).toLowerCase().includes(q)&&(!$('#station').value||i.station===$('#station').value)&&(!$('#room').value||i.room===$('#room').value));items.sort($('#sort').value==='price'?(a,b)=>(a.price??Infinity)-(b.price??Infinity):(a,b)=>b.first_seen.localeCompare(a.first_seen));
+ const q=$('#search').value.toLowerCase();items=items.filter(i=>(i.title+' '+(i.station||'')+' '+key(i)).toLowerCase().includes(q)&&(!$('#station').value||i.station===$('#station').value)&&(!$('#room').value||i.room===$('#room').value));items=items.filter(matchesAmenities);items.sort($('#sort').value==='price'?(a,b)=>(a.price??Infinity)-(b.price??Infinity):(a,b)=>b.first_seen.localeCompare(a.first_seen));
  $('#cards').replaceChildren();$('#empty').hidden=!!items.length;$('#total').textContent=data.listings.filter(i=>i.status!=='excluded'&&choice(i)!=='reject').length;$('#matches').textContent=data.listings.filter(i=>i.status==='match'&&choice(i)!=='reject').length;$('#saved').textContent=data.listings.filter(i=>choice(i)==='keep').length;
  for(const i of items){const tr=el('tr');
  const title=el('td');const a=el('a',i.title);const u=new URL(i.url);if(u.protocol==='https:'){a.href=u.href;a.target='_blank';a.rel='noopener noreferrer';}title.append(a,el('small',key(i),'source-id'));tr.append(title);
@@ -45,6 +48,7 @@ function render(){if(!data||!selectionReady)return;
  tr.append(el('td',(i.station||'捷運站待確認')+'\n'+(i.walk_minutes?i.walk_minutes+' 分鐘步行':'步行時間待確認')));
  tr.append(el('td',(i.condo?'Condo':i.property_type==='hdb'?'HDB':'類型待確認')+'\n'+(i.built?i.built+' 完工 · 約'+(new Date().getFullYear()-i.built)+'年':'屋齡待確認')));
  const bath=i.private_bathroom===true?'私人衛浴':i.private_bathroom===false?'共用衛浴':'衛浴待確認';tr.append(el('td',(i.room==='master'?'主臥 / 套房':i.room==='common'?'普通房':'房型待確認')+'\n'+bath));
+ const facilities=el('td'),list=el('ul');for(const [k,label] of Object.entries(amenityNames)){const v=amenityValue(i,k),li=el('li',label+'：'+(v===true?'有':v===false?'無':'待確認'));li.title=(i.amenities?.[k]?.evidence||[]).join(' / ');list.append(li);}facilities.append(list);tr.append(facilities);
  const notes=el('td'),ul=el('ul');for(const s of reasons(i))ul.append(el('li',s));notes.append(ul);tr.append(notes);
  const actions=el('td'),c=choice(i);actions.append(el('strong',c==='keep'?'已保留':c==='reject'?'已排除':'尚未選擇','decision-label'));
  for(const [state,label] of c==='reject'?[['reset','復原 ↗']]:[['keep','保留 ↗'],['reject','排除 ↗'],...(c==='keep'?[['reset','取消保留 ↗']]:[])]){const b=el('button',label);b.disabled=c===state;b.onclick=()=>request(i,state);actions.append(b);}tr.append(actions);$('#cards').append(tr);
@@ -52,4 +56,5 @@ function render(){if(!data||!selectionReady)return;
 }
 for(const s of ['#search','#station','#room','#sort'])$(s).addEventListener('input',render);
 for(const b of document.querySelectorAll('[data-tab]'))b.onclick=()=>{tab=b.dataset.tab;for(const x of document.querySelectorAll('[data-tab]'))x.classList.toggle('active',x===b);render();};
+for(const s of document.querySelectorAll('[data-amenity]'))s.addEventListener('change',render);
 $('#refresh').onclick=load;load();

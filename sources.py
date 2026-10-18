@@ -20,6 +20,40 @@ class PublicRoom(HTMLParser):
         self.body.append(t)
         if self.in_title:self.title.append(t)
 
+AMENITIES = {
+    'gym': r'gym(?:nasium)?|fitness (?:centre|center|room)',
+    'pool': r'(?:swimming|lap|wading) pool',
+    'bbq': r'bbq(?: pits?| area)?|barbecue(?: pits?| area)?',
+    'tennis': r'tennis courts?',
+    'playground': r'(?:children.s )?playground',
+    'security': r'24[ -]?hours? security|24/7 security',
+}
+
+def parse_amenities(fragments):
+    """Conservative source claims: omitted and ambiguous facilities stay unknown."""
+    result = {}
+    for key, pattern in AMENITIES.items():
+        claims = []
+        evidence = []
+        for fragment in fragments:
+            for line in re.split(r'[\n.;]', fragment):
+                line = line.strip()
+                if not re.search(r'\b(?:'+pattern+r')\b', line, re.I):
+                    continue
+                # Nearby commercial facilities, future plans, questions and negated
+                # lists must never become positive condo amenity claims.
+                if re.search(r'near|walk|away|opposite|public|planned|coming|maybe|\?', line, re.I):
+                    continue
+                if re.fullmatch(r'(?:no|without)\s+(?:a\s+)?(?:'+pattern+r')', line, re.I) or re.fullmatch(r'(?:'+pattern+r')\s*[:\-]?\s*(?:no|not available|unavailable)',line,re.I):
+                    claims.append(False); evidence.append(line[:160]); continue
+                if re.search(r'\b(?:no|not|without|closed|unavailable)\b', line, re.I):
+                    continue
+                if re.fullmatch(r'(?:'+pattern+r')(?:\s*:\s*(?:yes|available))?', line, re.I) or re.search(r'\b(?:facilities|amenities|equipped with|comes with|condo has|condominium has)\b',line,re.I):
+                    claims.append(True); evidence.append(line[:160])
+        result[key] = {'value': claims[0] if claims and len(set(claims)) == 1 else None,
+                       'evidence': evidence[:2]}
+    return result
+
 def parse_ris(html,url):
     p=PublicRoom();p.feed(html);title=' '.join(p.title);body=' '.join(p.body);low=body.lower()
     if not title or not re.search(r'\bRoom details\b',body,re.I):raise ValueError('Room details missing; parser review required')
@@ -30,6 +64,7 @@ def parse_ris(html,url):
     published=re.search(r'Published on\s*(\d{2}\.\d{2}\.\d{4})',body,re.I)
     return dict(id=hashlib.sha256(url.encode()).hexdigest()[:20],url=url,title=title[:200],source='RentInSingapore',
         price=float(m[1].replace(',','')),station=station,walk_minutes=None,
+        amenities=parse_amenities(p.body),
         room='master' if re.search(r'master|en.?suite|attached bathroom|private bathroom|own bathroom',low) else ('common' if 'common room' in low else 'unknown'),
         built=int(b[1]) if b else None,condo=bool(re.search(r'\bcondo(?:minium)?\b',low)),
         property_type='hdb' if re.search(r'\bHDB\b',body) else ('condo' if re.search(r'\bcondo(?:minium)?\b',low) else 'unknown'),
