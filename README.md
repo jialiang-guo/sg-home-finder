@@ -14,9 +14,13 @@ In repository Settings → Pages → Build and deployment, select **GitHub Actio
 
 Budget S$2,500; condo within 10 calendar years; Buona Vista, Commonwealth, Queenstown, Redhill, Tiong Bahru; one-north optional. Prioritize private bathrooms; common rooms require subjective review.
 
-Cove is the only implemented source. Initial records are two real reference links previously reviewed, NOT confirmed available or within-budget listings. Their current prices, completion years and availability are unknown. The development environment returned 403; successful live crawling is not yet verified. Sitemap discovery is limited to 60 listing pages and is not exhaustive. Related-room prices are excluded. All unverified facts stay unknown; failures retain previous records as stale and are shown in the dashboard. A successful deployment does not prove a successful crawl.
+RentInSingapore is the active source. On 18 October 2026 the GitHub runner successfully fetched and parsed 20 public listing pages with no source errors. Discovery covers Queenstown, Buona Vista and Tiong Bahru pages, capped at 20 details per run; it is not exhaustive. Cove collection is disabled because its robots.txt disallows detail pages; two historical reference links remain marked stale. Known HDB listings are excluded. Unknown completion years, exact MRT proximity and current availability remain unverified, so a collected room is not automatically a confirmed match.
 
-The crawler respects robots.txt, rate limits requests and does not bypass access blocks. If GitHub runners are also blocked, a different supported source or API is needed. The adapter conservatively leaves availability unknown, so candidates require confirmation on the original site.
+The crawler respects robots.txt, applies request delays, response limits and timeouts, and pauses a source after access denial/rate limiting. It reads public room facts only, not login-gated contacts. No CAPTCHA, login or access-block bypass is implemented.
+
+## Website isolation
+
+`daily.yml` collects and validates snapshots before committing. `deploy.yml` independently publishes the last committed, validated snapshot on website changes or when collection finishes (including failures). Collection has a 5-minute process deadline and an 8-minute job limit. Writes are atomic; malformed snapshots are rejected. Crawl crashes, missing dependencies, timeouts or push conflicts do not replace the live site. Failed deployments leave the existing Pages deployment intact. Code changes are not automatically retried on conflicting Git pushes. Last successful scrape time and stale flags are shown in the UI.
 
 ## Development
 
