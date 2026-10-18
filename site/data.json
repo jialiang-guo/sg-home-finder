@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-18T15:27:24.138907+00:00",
-  "last_success": "2026-10-18T15:27:24.138907+00:00",
+  "updated_at": "2026-10-18T15:31:46.949814+00:00",
+  "last_success": "2026-10-18T15:31:46.949814+00:00",
   "criteria": {
     "budget": 2500,
     "max_age": 10,
@@ -84,6 +84,32 @@
       "price": 2500.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "master",
       "built": null,
       "condo": true,
@@ -91,7 +117,7 @@
       "availability": "unknown",
       "published": "03.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -111,6 +137,32 @@
       "price": 1690.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "common",
       "built": null,
       "condo": true,
@@ -118,7 +170,7 @@
       "availability": "unknown",
       "published": "14.09.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -138,6 +190,32 @@
       "price": 970.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "common",
       "built": null,
       "condo": false,
@@ -145,7 +223,7 @@
       "availability": "unknown",
       "published": "18.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -165,6 +243,32 @@
       "price": 1250.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": false,
@@ -172,7 +276,7 @@
       "availability": "unknown",
       "published": "13.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -192,6 +296,32 @@
       "price": 1390.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": true,
@@ -199,7 +329,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -219,6 +349,32 @@
       "price": 1690.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": true,
@@ -226,7 +382,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -246,6 +402,32 @@
       "price": 2490.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": true,
@@ -253,7 +435,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -273,6 +455,32 @@
       "price": 1699.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": true,
@@ -280,7 +488,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -300,6 +508,32 @@
       "price": 2200.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "master",
       "built": null,
       "condo": true,
@@ -307,7 +541,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -327,6 +561,32 @@
       "price": 1399.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": true,
@@ -334,7 +594,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -354,6 +614,32 @@
       "price": 1290.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": true,
@@ -361,7 +647,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -381,6 +667,32 @@
       "price": 1200.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": true,
@@ -388,7 +700,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -408,6 +720,32 @@
       "price": 750.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": false,
@@ -415,7 +753,7 @@
       "availability": "unknown",
       "published": "17.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -435,6 +773,32 @@
       "price": 900.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "common",
       "built": null,
       "condo": false,
@@ -442,7 +806,7 @@
       "availability": "unknown",
       "published": "14.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -462,6 +826,32 @@
       "price": 1250.0,
       "station": null,
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": true,
@@ -469,7 +859,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -489,6 +879,32 @@
       "price": 530.0,
       "station": "Buona Vista",
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": false,
@@ -496,7 +912,7 @@
       "availability": "unknown",
       "published": "09.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -516,6 +932,32 @@
       "price": 1350.0,
       "station": "Tiong Bahru",
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": true,
@@ -523,7 +965,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -543,6 +985,32 @@
       "price": 1200.0,
       "station": "Tiong Bahru",
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "common",
       "built": null,
       "condo": false,
@@ -550,7 +1018,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -570,6 +1038,32 @@
       "price": 530.0,
       "station": "Buona Vista",
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": false,
@@ -577,7 +1071,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
@@ -597,6 +1091,32 @@
       "price": 2000.0,
       "station": "Tiong Bahru",
       "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
       "room": "unknown",
       "built": null,
       "condo": true,
@@ -604,7 +1124,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:27:24.138907+00:00",
+      "last_seen": "2026-10-18T15:31:46.949814+00:00",
       "stale": false,
       "price_history": [
         {
