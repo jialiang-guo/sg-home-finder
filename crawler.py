@@ -9,7 +9,6 @@ from urllib.parse import urljoin, urlsplit
 from urllib.request import Request, build_opener, HTTPRedirectHandler
 from urllib.robotparser import RobotFileParser
 import xml.etree.ElementTree as ET
-from crypto import encrypt, decrypt
 ROOT = Path(__file__).parent
 AGENT = 'SGHomeFinder/1.0'
 class NoRedirect(HTTPRedirectHandler):
@@ -109,17 +108,12 @@ def crawl(cfg,old=None):
     return dict(updated_at=now,last_success=now if success else (old or {}).get('last_success'),
         criteria=cfg,source_status=dict(attempted=count,refreshed=success,errors=errors),listings=list(records.values()))
 def main():
-    password=os.environ.get('SITE_PASSWORD','')
-    if len(password)<20: raise SystemExit('Set SITE_PASSWORD to a random password of at least 20 characters')
-    cfg=json.loads((ROOT/'config.json').read_text()); state=ROOT/'state/data.enc.json'; old=None
-    if state.exists():
-        # Fail closed on wrong password/corrupted state. Never erase prior data silently.
-        old=decrypt(json.loads(state.read_text()),password)
-    data=crawl(cfg,old); sealed=json.dumps(encrypt(data,password))
-    state.parent.mkdir(exist_ok=True); temp=state.with_suffix('.tmp');temp.write_text(sealed);temp.replace(state)
-    (ROOT/'site/data.enc.json').write_text(sealed)
+    cfg=json.loads((ROOT/'config.json').read_text()); state=ROOT/'site/data.json'; old=None
+    if state.exists(): old=json.loads(state.read_text())
+    data=crawl(cfg,old)
+    temp=state.with_suffix('.tmp'); temp.write_text(json.dumps(data,ensure_ascii=False,indent=2)); temp.replace(state)
     errors=len(data['source_status']['errors'])
-    print(f"Refreshed {data['source_status']['refreshed']} pages; {errors} source errors. Details encrypted in dashboard.")
+    print(f"Refreshed {data['source_status']['refreshed']} pages; {errors} source errors.")
     if os.environ.get('GITHUB_OUTPUT'):
         with open(os.environ['GITHUB_OUTPUT'],'a') as f: f.write(f"degraded={'true' if errors or not data['source_status']['refreshed'] else 'false'}\n")
 if __name__=='__main__':main()

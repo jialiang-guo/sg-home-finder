@@ -1,0 +1,79 @@
+{
+  "updated_at": "2026-10-18T14:06:10.639510+00:00",
+  "last_success": null,
+  "criteria": {
+    "budget": 2500,
+    "max_age": 10,
+    "stations": [
+      "Buona Vista",
+      "Commonwealth",
+      "Queenstown",
+      "Redhill",
+      "Tiong Bahru"
+    ],
+    "optional_stations": [
+      "one-north"
+    ],
+    "seed_urls": [
+      "https://cove.sg/listings/334-cove-9-jr-master-en-suite-room-commonwealth-towers",
+      "https://cove.sg/listings/335-cove-9-master-en-suite-room-commonwealth-towers"
+    ],
+    "discovery_urls": [
+      "https://cove.sg/sitemap.xml"
+    ],
+    "max_pages": 60,
+    "request_delay": 3
+  },
+  "source_status": {
+    "attempted": 2,
+    "refreshed": 0,
+    "errors": [
+      {
+        "url": "https://cove.sg/listings/334-cove-9-jr-master-en-suite-room-commonwealth-towers",
+        "error": "Disallowed by robots.txt"
+      },
+      {
+        "url": "https://cove.sg/listings/335-cove-9-master-en-suite-room-commonwealth-towers",
+        "error": "Disallowed by robots.txt"
+      }
+    ]
+  },
+  "listings": [
+    {
+      "id": "ba4110b74429500e19d4",
+      "url": "https://cove.sg/listings/334-cove-9-jr-master-en-suite-room-commonwealth-towers",
+      "title": "Commonwealth Towers · Jr. Master En-suite Room",
+      "source": "Cove",
+      "station": "Queenstown",
+      "walk_minutes": null,
+      "price": null,
+      "room": "master",
+      "built": null,
+      "condo": true,
+      "availability": "unknown",
+      "first_seen": "2026-10-16T00:00:00+00:00",
+      "last_seen": null,
+      "stale": true,
+      "status": "review",
+      "price_history": []
+    },
+    {
+      "id": "ae438a52be4caf15d60e",
+      "url": "https://cove.sg/listings/335-cove-9-master-en-suite-room-commonwealth-towers",
+      "title": "Commonwealth Towers · Master En-suite Room",
+      "source": "Cove",
+      "station": "Queenstown",
+      "walk_minutes": null,
+      "price": null,
+      "room": "master",
+      "built": null,
+      "condo": true,
+      "availability": "unknown",
+      "first_seen": "2026-10-16T00:00:00+00:00",
+      "last_seen": null,
+      "stale": true,
+      "status": "review",
+      "price_history": []
+    }
+  ]
+}
