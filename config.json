@@ -1,13 +1,29 @@
 {
   "budget": 2500,
   "max_age": 10,
-  "stations": ["Buona Vista", "Commonwealth", "Queenstown", "Redhill", "Tiong Bahru"],
-  "optional_stations": ["one-north"],
-  "seed_urls": [
-    "https://cove.sg/listings/334-cove-9-jr-master-en-suite-room-commonwealth-towers",
-    "https://cove.sg/listings/335-cove-9-master-en-suite-room-commonwealth-towers"
+  "stations": [
+    "Buona Vista",
+    "Commonwealth",
+    "Queenstown",
+    "Redhill",
+    "Tiong Bahru"
   ],
-  "discovery_urls": ["https://cove.sg/sitemap.xml"],
+  "optional_stations": [
+    "one-north"
+  ],
+  "seed_urls": [],
+  "discovery_urls": [],
   "max_pages": 60,
-  "request_delay": 3
+  "request_delay": 3,
+  "cove_enabled": false,
+  "ris_enabled": true,
+  "ris_discovery": [
+    "https://rentinsingapore.com.sg/condo-room-for-rent/queenstown",
+    "https://rentinsingapore.com.sg/rooms-for-rent/buona-vista",
+    "https://rentinsingapore.com.sg/rooms-for-rent/tiong-bahru"
+  ],
+  "ris_seed_urls": [
+    "https://rentinsingapore.com.sg/ID365031"
+  ],
+  "ris_max_pages": 20
 }

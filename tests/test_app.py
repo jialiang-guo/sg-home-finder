@@ -36,3 +36,24 @@ class Tests(unittest.TestCase):
   self.assertEqual(result['last_success'],'2026-01-01')
   self.assertEqual(result['source_status']['refreshed'],0)
 if __name__=='__main__':unittest.main()
+
+class SourceSafetyTests(unittest.TestCase):
+ def test_ris_isolates_public_room(self):
+  from sources import parse_ris
+  html='<h1>Master room near Queenstown MRT</h1><p>2,400 SGD per month</p><h4>Room details</h4><p>Condo Published on 18.10.2026</p><div>Contact Landlord</div><p>1,000 SGD per month</p>'
+  x=parse_ris(html,'https://rentinsingapore.com.sg/ID1')
+  self.assertEqual(x['price'],2400);self.assertEqual(x['station'],'Queenstown');self.assertEqual(x['availability'],'unknown')
+ def test_hdb_excluded(self):
+  from sources import parse_ris
+  x=parse_ris('<h1>Common room</h1>900 SGD per month<h4>Room details</h4>HDB','https://rentinsingapore.com.sg/ID1')
+  self.assertEqual(classify(x,{'budget':2500,'max_age':10,'stations':[],'optional_stations':[]},2026),'excluded')
+ def test_invalid_snapshot_rejected(self):
+  from validate_data import validate
+  with self.assertRaises(ValueError):validate({'listings':'corrupt'})
+ def test_robots_failure_cannot_turn_into_allow(self):
+  from crawler import Client
+  c=Client(0)
+  with patch.object(c,'raw',side_effect=ValueError('network unavailable')) as raw:
+   with self.assertRaises(ValueError):c.get('https://cove.sg/listings/1')
+   with self.assertRaises(ValueError):c.get('https://cove.sg/listings/1')
+   self.assertEqual(raw.call_count,1)
