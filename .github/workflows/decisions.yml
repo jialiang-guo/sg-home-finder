@@ -6,7 +6,8 @@ permissions:
   contents: read
 jobs:
   save:
-    if: startsWith(github.event.issue.title, '[Home decision] ') && contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+    # Retired: shared choices now live in Supabase.
+    if: ${{ false }}
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:

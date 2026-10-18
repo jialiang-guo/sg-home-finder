@@ -1,0 +1,6 @@
+const vm=require('node:vm'),assert=require('node:assert/strict'),fs=require('node:fs');
+let user=null,allowed=false,saveError=null;
+const rows=[{listing_key:'RentInSingapore:1',decision:'reject'}];
+const db={auth:{getSession:async()=>({data:{session:user?{user}:null}}),getUser:async()=>({data:{user}})},from:name=>({select:()=>name==='home_members'?{eq:async()=>({data:allowed?[{user_id:user.id}]:[]})}:{order:()=>({range:async()=>({data:rows})})},upsert:payload=>({select:()=>({single:async()=>({data:payload,error:saveError})})})})};
+const ctx=vm.createContext({window:{supabase:{createClient:()=>db}}});vm.runInContext(fs.readFileSync('site/store.js','utf8')+';globalThis.store=HomeStore;',ctx);
+(async()=>{const s=ctx.store;assert.equal((await s.read())['RentInSingapore:1'].decision,'reject');assert.equal((await s.member()).allowed,false);await assert.rejects(()=>s.save('x','keep'));user={id:'member'};allowed=true;assert.equal((await s.member()).allowed,true);assert.equal((await s.save('x','keep')).updated_by,'member');saveError=new Error('RLS denied');await assert.rejects(()=>s.save('x','reject'));console.log('Store checks passed: read, membership, authenticated save, failed-save propagation');})().catch(e=>{console.error(e);process.exit(1)});

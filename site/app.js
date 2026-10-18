@@ -1,6 +1,6 @@
 'use strict';
 const $=s=>document.querySelector(s);
-let data=null,decisions={},tab='all',selectionReady=false;
+let data=null,decisions={},tab='all',selectionReady=false,canWrite=false,saving=false,loadSequence=0;
 function key(i){const u=new URL(i.url);let m;if(u.hostname==='rentinsingapore.com.sg'&&(m=u.pathname.match(/^\/ID(\d+)\/?$/)))return 'RentInSingapore:'+m[1];if(u.hostname==='cove.sg'&&(m=u.pathname.match(/^\/listings\/(\d+)(?:-|\/|$)/)))return 'Cove:'+m[1];return 'legacy:'+i.id;}
 const amenityNames={"gym": "健身房", "pool": "泳池", "bbq": "BBQ", "tennis": "網球場", "playground": "遊樂場", "security": "24 小時保全"};
 function amenityValue(i,k){return i.amenities?.[k]?.value??null;}
@@ -8,26 +8,28 @@ function matchesAmenities(i){return [...document.querySelectorAll('[data-amenity
 function choice(i){return decisions[key(i)]?.decision||'reset';}
 function el(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;}
 async function load(){
- $('#refresh').disabled=true;selectionReady=false;
+ if(saving)return;const seq=++loadSequence;$('#refresh').disabled=true;selectionReady=false;
  try{
-  const [r,d]=await Promise.all([fetch('data.json',{cache:'no-store'}),fetch('decisions.json',{cache:'no-store'})]);
-  if(!r.ok||!d.ok)throw Error('資料讀取失敗');
-  data=await r.json();const saved=await d.json();if(saved.version!==1||!saved.decisions)throw Error('選擇紀錄格式錯誤');decisions=saved.decisions;selectionReady=true;
+  const [r,saved,member]=await Promise.all([fetch('data.json',{cache:'no-store'}),HomeStore.read(),HomeStore.member()]);
+  if(!r.ok)throw Error('資料讀取失敗');
+  const snapshot=await r.json();if(seq!==loadSequence)return;data=snapshot;decisions=saved;canWrite=member.allowed;selectionReady=true;
+  $('#auth-status').textContent=member.user?(canWrite?'已登入 · 可以共同選房':'已登入 · 尚未加入選房成員名單'):'登入後即可保留／排除，瀏覽不需登入。';$('#auth-form').hidden=!!member.user;$('#logout').hidden=!member.user;
   const prev=$('#station').value;$('#station').replaceChildren(new Option('所有捷運站',''),...data.criteria.stations.concat(data.criteria.optional_stations).map(s=>new Option(s,s)));$('#station').value=prev;
   $('#updated').textContent=data.last_success?new Date(data.last_success).toLocaleString('zh-TW',{timeZone:'Asia/Singapore'})+' SGT':'尚未成功';
   const ss=data.source_status,age=data.last_success?(Date.now()-Date.parse(data.last_success))/3600000:Infinity;
   $('#status').textContent=ss.errors.length||!ss.refreshed||age>36?'更新需注意：部分資料未更新，請查看來源狀態。':'房源已更新。待確認不等於已符合全部條件。';
-  $('#diagnostics').textContent=JSON.stringify(ss,null,2);$('#selection-status').textContent='已載入 GitHub 共同選擇。';render();
- }catch(e){$('#selection-status').textContent='無法載入共同選擇，暫停操作以免誤判排除狀態。請重試。';$('#cards').replaceChildren();}
- finally{$('#refresh').disabled=false;}
+  $('#diagnostics').textContent=JSON.stringify(ss,null,2);$('#selection-status').textContent='共同選擇已同步。';render();
+ }catch(e){if(seq!==loadSequence)return;canWrite=false;$('#selection-status').textContent='無法載入共同選擇，暫停操作以免誤判排除狀態。請重試。';$('#cards').replaceChildren();}
+ finally{if(seq===loadSequence)$('#refresh').disabled=false;}
 }
-function request(i,decision){
- if(!selectionReady)return;
- const payload={listing_key:key(i),decision};
- const u=new URL('https://github.com/jialiang-guo/sg-home-finder/issues/new');u.searchParams.set('title','[Home decision] '+key(i)+' '+decision);u.searchParams.set('body',JSON.stringify(payload,null,2));
- window.open(u.href,'_blank','noopener,noreferrer');
- $('#selection-status').textContent='請在 GitHub 按 Create 送出。此處尚未變更；同步完成後按「重新載入選擇」。';
+async function request(i,decision){
+ if(!selectionReady||!canWrite||saving)return;
+ saving=true;render();$('#refresh').disabled=true;$('#selection-status').textContent='儲存中…';
+ try{const result=await HomeStore.save(key(i),decision);decisions[key(i)]=result;$('#selection-status').textContent='已儲存並同步。';}
+ catch(e){$('#selection-status').textContent='未儲存成功，原選擇未變更。請確認登入、成員權限及網路後重試。';}
+ finally{saving=false;$('#refresh').disabled=false;render();}
 }
+
 function reasons(i){const a=[];
  if(i.price==null)a.push('月租待確認');else if(i.price>data.criteria.budget)a.push('超過預算');
  if(!i.station)a.push('捷運站待確認');
@@ -51,10 +53,15 @@ function render(){if(!data||!selectionReady)return;
  const facilities=el('td'),list=el('ul');for(const [k,label] of Object.entries(amenityNames)){const v=amenityValue(i,k),li=el('li',label+'：'+(v===true?'有':v===false?'無':'待確認'));li.title=(i.amenities?.[k]?.evidence||[]).join(' / ');list.append(li);}facilities.append(list);tr.append(facilities);
  const notes=el('td'),ul=el('ul');for(const s of reasons(i))ul.append(el('li',s));notes.append(ul);tr.append(notes);
  const actions=el('td'),c=choice(i);actions.append(el('strong',c==='keep'?'已保留':c==='reject'?'已排除':'尚未選擇','decision-label'));
- for(const [state,label] of c==='reject'?[['reset','復原 ↗']]:[['keep','保留 ↗'],['reject','排除 ↗'],...(c==='keep'?[['reset','取消保留 ↗']]:[])]){const b=el('button',label);b.disabled=c===state;b.onclick=()=>request(i,state);actions.append(b);}tr.append(actions);$('#cards').append(tr);
+ for(const [state,label] of c==='reject'?[['reset','復原']]:[['keep','保留'],['reject','排除'],...(c==='keep'?[['reset','取消保留']]:[])]){const b=el('button',label);b.disabled=c===state||!canWrite||saving;b.onclick=()=>request(i,state);actions.append(b);}tr.append(actions);$('#cards').append(tr);
  }
 }
 for(const s of ['#search','#station','#room','#sort'])$(s).addEventListener('input',render);
 for(const b of document.querySelectorAll('[data-tab]'))b.onclick=()=>{tab=b.dataset.tab;for(const x of document.querySelectorAll('[data-tab]'))x.classList.toggle('active',x===b);render();};
 for(const s of document.querySelectorAll('[data-amenity]'))s.addEventListener('change',render);
-$('#refresh').onclick=load;load();
+$('#refresh').onclick=load;
+$('#auth-form').onsubmit=async e=>{e.preventDefault();const b=$('#login');b.disabled=true;$('#auth-status').textContent='登入中…';try{await HomeStore.signIn($('#email').value,$('#password').value);$('#password').value='';await load();}catch(e){$('#password').value='';$('#auth-status').textContent='登入失敗，請確認選房帳號與密碼。';}finally{b.disabled=false;}};
+$('#logout').onclick=async()=>{try{await HomeStore.signOut();canWrite=false;await load();}catch(e){$('#auth-status').textContent='登出失敗，請重試。';}};
+window.addEventListener('focus',()=>{if(!saving)load();});
+setInterval(()=>{if(!document.hidden&&!saving)load();},30000);
+load();

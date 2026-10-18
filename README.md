@@ -28,10 +28,14 @@ Python 3.12+. Install `requirements.txt`, run `python -m unittest discover -s te
 
 `crypto.py` and its regression tests remain for a potential future encrypted mode, but the active crawler and UI do not use them. No encrypted datasets or passwords are published. Tests cover matching, avoiding related-room price contamination, and retaining records after source failure. Browser visual QA has not been performed.
 
-## Shared decisions
+## Shared decisions (Supabase)
 
-The comparison table shows rent, MRT/walk, property type/age, room/bathroom, missing facts, and native source ID. Unknown bathroom details stay unverified.
+Choices now live in Supabase home_decisions, using the original source listing keys. The crawler never changes that table. site/decisions.json is a historical snapshot; the old issue writer is disabled to avoid two conflicting stores. At migration it contained no selections.
 
-Click Keep/Reject/Restore, then submit the prefilled GitHub issue. The owner or a repository collaborator must be signed in; add your partner in Settings → Collaborators. Viewing needs no login. Save room decision validates the event, saves the selection, and closes the issue after success. Pages republishes after the workflow; reload choices after deployment. If the issue remains open, inspect Actions. No token is stored in the browser.
+The frontend uses vendored @supabase/supabase-js 2.118.0 and only a publishable key. Supabase Auth email/password sessions persist on the user's device; passwords are never committed. Public reads preserve the existing public dashboard behavior. Writes require an authenticated UUID in home_members. The allowlist has RLS and no client write grants. No service-role key is present in the website.
 
-The latest submitted issue number wins even if jobs finish out of order. Push conflicts reload and reapply against latest master. Rejected rooms stay hidden in normal views and can be restored in the Rejected tab. Same-source IDs retain decisions across price, URL query and title changes; new listing IDs are treated as new listings. Tests use event fixtures; an authenticated end-to-end decision submission has not been performed.
+Run supabase/schema.sql once for initial setup. In Authentication → Users → Add user → Create new user, create each selection account yourself with a password and confirmed email. Never put passwords in SQL or repository files. Add each intended account UUID to home_members using the SQL editor (do not automatically authorize everyone in auth.users). Log in on the website using this selection account, not the Supabase dashboard/GitHub password.
+
+Changes save before the UI acknowledges success. Failed saves retain the original choice. Other devices refresh every 30 seconds while visible and on focus. Rejected records persist and are reversible. Reset stores an explicit reset row. Same-source IDs retain decisions across daily collection; new source IDs are new listings. Free Supabase projects may pause after inactivity. If the database is unavailable, writes stop; the website does not overwrite choices from its old GitHub snapshot.
+
+Validation: Python regression suite, JavaScript syntax and store tests, and SQL checks for anonymous/non-member write denial. Creating the two login accounts and authenticated UI save verification require the account owner's input.
