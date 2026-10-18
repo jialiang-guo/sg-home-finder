@@ -8,7 +8,7 @@ In repository Settings → Pages → Build and deployment, select **GitHub Actio
 
 ## Data and privacy
 
-`site/data.json` stores the shared snapshot directly in this public repository. Each collection commits its result, retaining Git version history. Source code, criteria, listing links and diagnostics are public. Do not add passwords, personal notes or tenant details. Favorites remain device-local in localStorage, not synced to GitHub. Shared favorites/notes would need authenticated write access and are not implemented.
+`site/data.json` stores the shared snapshot directly in this public repository. Each collection commits its result, retaining Git version history. Source code, criteria, listing links and diagnostics are public. Do not add passwords, personal notes or tenant details. Shared keep/reject/reset decisions are stored in `site/decisions.json`, keyed by source and native listing ID. The crawler never writes this file. Choices are public. Previous device-local favorites are not automatically imported.
 
 ## Coverage and current limits
 
@@ -27,3 +27,11 @@ The crawler respects robots.txt, applies request delays, response limits and tim
 Python 3.12+. Install `requirements.txt`, run `python -m unittest discover -s tests -v`, then `python crawler.py`. Preview with `python -m http.server 8000 --directory site`.
 
 `crypto.py` and its regression tests remain for a potential future encrypted mode, but the active crawler and UI do not use them. No encrypted datasets or passwords are published. Tests cover matching, avoiding related-room price contamination, and retaining records after source failure. Browser visual QA has not been performed.
+
+## Shared decisions
+
+The comparison table shows rent, MRT/walk, property type/age, room/bathroom, missing facts, and native source ID. Unknown bathroom details stay unverified.
+
+Click Keep/Reject/Restore, then submit the prefilled GitHub issue. The owner or a repository collaborator must be signed in; add your partner in Settings → Collaborators. Viewing needs no login. Save room decision validates the event, saves the selection, and closes the issue after success. Pages republishes after the workflow; reload choices after deployment. If the issue remains open, inspect Actions. No token is stored in the browser.
+
+The latest submitted issue number wins even if jobs finish out of order. Push conflicts reload and reapply against latest master. Rejected rooms stay hidden in normal views and can be restored in the Rejected tab. Same-source IDs retain decisions across price, URL query and title changes; new listing IDs are treated as new listings. Tests use event fixtures; an authenticated end-to-end decision submission has not been performed.

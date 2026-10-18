@@ -10,6 +10,7 @@ from urllib.request import Request, build_opener, HTTPRedirectHandler
 from urllib.robotparser import RobotFileParser
 from urllib.error import HTTPError
 from validate_data import validate
+from listing_identity import identity
 import xml.etree.ElementTree as ET
 ROOT = Path(__file__).parent
 AGENT = 'SGHomeFinder/1.0'
@@ -130,6 +131,7 @@ def crawl(cfg,old=None):
             item['price_history']=item['price_history'][-60:]
             item['status']=classify(item,cfg,year);records[item['id']]=item;success+=1
     for item in records.values():
+        item['listing_key'],item['source_id']=identity(item)
         item['stale']=item.get('last_seen')!=now
         item['status']=classify(item,cfg,year)
     return dict(updated_at=now,last_success=now if success else (old or {}).get('last_success'),

@@ -5,7 +5,7 @@ on:
     paths: ['site/**', 'validate_data.py', '.github/workflows/deploy.yml']
   workflow_dispatch:
   workflow_run:
-    workflows: ['Daily home search']
+    workflows: ['Daily home search', 'Save room decision']
     types: [completed]
 permissions:
   contents: read
