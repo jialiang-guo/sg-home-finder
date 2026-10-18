@@ -1,0 +1,54 @@
+name: Daily private home search
+on:
+  schedule:
+    - cron: '17 0 * * *' # 08:17 Singapore; GitHub schedules can be delayed.
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: home-finder-pages
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - uses: actions/cache/restore@v4
+        with:
+          path: state/data.enc.json
+          key: homes-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: homes-
+      - name: Crawl and encrypt
+        id: crawl
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+        run: python crawler.py
+      - uses: actions/cache/save@v4
+        with:
+          path: state/data.enc.json
+          key: homes-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Flag incomplete source updates after publishing status
+        if: steps.crawl.outputs.degraded == 'true'
+        run: |
+          echo 'Source update incomplete. Dashboard contains encrypted diagnostics and retained data.'
+          exit 1

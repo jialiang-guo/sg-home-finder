@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+state/
+site/data.enc.json
+*.zip
+.venv/

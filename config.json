@@ -1,0 +1,13 @@
+{
+  "budget": 2500,
+  "max_age": 10,
+  "stations": ["Buona Vista", "Commonwealth", "Queenstown", "Redhill", "Tiong Bahru"],
+  "optional_stations": ["one-north"],
+  "seed_urls": [
+    "https://cove.sg/listings/334-cove-9-jr-master-en-suite-room-commonwealth-towers",
+    "https://cove.sg/listings/335-cove-9-master-en-suite-room-commonwealth-towers"
+  ],
+  "discovery_urls": ["https://cove.sg/sitemap.xml"],
+  "max_pages": 60,
+  "request_delay": 3
+}
