@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-18T14:23:19.630857+00:00",
-  "last_success": "2026-10-18T14:23:19.630857+00:00",
+  "updated_at": "2026-10-18T15:27:24.138907+00:00",
+  "last_success": "2026-10-18T15:27:24.138907+00:00",
   "criteria": {
     "budget": 2500,
     "max_age": 10,
@@ -52,7 +52,9 @@
       "last_seen": null,
       "stale": true,
       "status": "review",
-      "price_history": []
+      "price_history": [],
+      "listing_key": "Cove:334",
+      "source_id": "334"
     },
     {
       "id": "ae438a52be4caf15d60e",
@@ -70,7 +72,9 @@
       "last_seen": null,
       "stale": true,
       "status": "review",
-      "price_history": []
+      "price_history": [],
+      "listing_key": "Cove:335",
+      "source_id": "335"
     },
     {
       "id": "4d205f13dadeb0fe5532",
@@ -87,7 +91,7 @@
       "availability": "unknown",
       "published": "03.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -95,7 +99,9 @@
           "price": 2500.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:365031",
+      "source_id": "365031"
     },
     {
       "id": "305b4e32402a9b1ea4d5",
@@ -112,7 +118,7 @@
       "availability": "unknown",
       "published": "14.09.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -120,7 +126,9 @@
           "price": 1690.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:819603",
+      "source_id": "819603"
     },
     {
       "id": "2e1ee07be43b9093affd",
@@ -137,7 +145,7 @@
       "availability": "unknown",
       "published": "18.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -145,7 +153,9 @@
           "price": 970.0
         }
       ],
-      "status": "excluded"
+      "status": "excluded",
+      "listing_key": "RentInSingapore:736275",
+      "source_id": "736275"
     },
     {
       "id": "c3e9fe7d14cbb07bba99",
@@ -162,7 +172,7 @@
       "availability": "unknown",
       "published": "13.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -170,7 +180,9 @@
           "price": 1250.0
         }
       ],
-      "status": "excluded"
+      "status": "excluded",
+      "listing_key": "RentInSingapore:373167",
+      "source_id": "373167"
     },
     {
       "id": "4a3466647c177defdcb4",
@@ -187,7 +199,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -195,7 +207,9 @@
           "price": 1390.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:691662",
+      "source_id": "691662"
     },
     {
       "id": "9029bef50aa28cbb1944",
@@ -212,7 +226,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -220,7 +234,9 @@
           "price": 1690.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:691665",
+      "source_id": "691665"
     },
     {
       "id": "60b7bf8c57bcc663ebd4",
@@ -237,7 +253,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -245,7 +261,9 @@
           "price": 2490.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:691666",
+      "source_id": "691666"
     },
     {
       "id": "22ce8551737259b76ee0",
@@ -262,7 +280,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -270,7 +288,9 @@
           "price": 1699.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:704371",
+      "source_id": "704371"
     },
     {
       "id": "bb8de347b3068909586c",
@@ -287,7 +307,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -295,7 +315,9 @@
           "price": 2200.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:704373",
+      "source_id": "704373"
     },
     {
       "id": "b54aeb7d515459b20f8b",
@@ -312,7 +334,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -320,7 +342,9 @@
           "price": 1399.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:704376",
+      "source_id": "704376"
     },
     {
       "id": "3d648cbc97c9ba160209",
@@ -337,7 +361,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -345,7 +369,9 @@
           "price": 1290.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:808453",
+      "source_id": "808453"
     },
     {
       "id": "3dae3b34d501db41bc2a",
@@ -362,7 +388,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -370,7 +396,9 @@
           "price": 1200.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:808456",
+      "source_id": "808456"
     },
     {
       "id": "4599868c9dbbcfaf758f",
@@ -387,7 +415,7 @@
       "availability": "unknown",
       "published": "17.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -395,7 +423,9 @@
           "price": 750.0
         }
       ],
-      "status": "excluded"
+      "status": "excluded",
+      "listing_key": "RentInSingapore:821793",
+      "source_id": "821793"
     },
     {
       "id": "5e8bff5f5984facab715",
@@ -412,7 +442,7 @@
       "availability": "unknown",
       "published": "14.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -420,7 +450,9 @@
           "price": 900.0
         }
       ],
-      "status": "excluded"
+      "status": "excluded",
+      "listing_key": "RentInSingapore:821657",
+      "source_id": "821657"
     },
     {
       "id": "a6aefb4c9c1d3d82d67f",
@@ -437,7 +469,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -445,7 +477,9 @@
           "price": 1250.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:808249",
+      "source_id": "808249"
     },
     {
       "id": "3789497e626c27eb014c",
@@ -462,7 +496,7 @@
       "availability": "unknown",
       "published": "09.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -470,7 +504,9 @@
           "price": 530.0
         }
       ],
-      "status": "excluded"
+      "status": "excluded",
+      "listing_key": "RentInSingapore:758453",
+      "source_id": "758453"
     },
     {
       "id": "11d9e36047e0dcc1cc9a",
@@ -487,7 +523,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -495,7 +531,9 @@
           "price": 1350.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:456751",
+      "source_id": "456751"
     },
     {
       "id": "218609c6dba5122d0b60",
@@ -512,7 +550,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -520,7 +558,9 @@
           "price": 1200.0
         }
       ],
-      "status": "excluded"
+      "status": "excluded",
+      "listing_key": "RentInSingapore:821128",
+      "source_id": "821128"
     },
     {
       "id": "7018bee45a9765929659",
@@ -537,7 +577,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -545,7 +585,9 @@
           "price": 530.0
         }
       ],
-      "status": "excluded"
+      "status": "excluded",
+      "listing_key": "RentInSingapore:750666",
+      "source_id": "750666"
     },
     {
       "id": "14f02b6c4914d67cb265",
@@ -562,7 +604,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T14:23:19.630857+00:00",
+      "last_seen": "2026-10-18T15:27:24.138907+00:00",
       "stale": false,
       "price_history": [
         {
@@ -570,7 +612,9 @@
           "price": 2000.0
         }
       ],
-      "status": "review"
+      "status": "review",
+      "listing_key": "RentInSingapore:559796",
+      "source_id": "559796"
     }
   ]
 }
