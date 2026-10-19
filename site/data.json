@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-19T04:38:32.964000+00:00",
-  "last_success": "2026-10-19T04:38:32.964000+00:00",
+  "updated_at": "2026-10-19T13:06:01.729025+00:00",
+  "last_success": "2026-10-19T13:06:01.729025+00:00",
   "criteria": {
     "budget": 2500,
     "max_age": 10,
@@ -117,7 +117,7 @@
       "availability": "unknown",
       "published": "03.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -170,7 +170,7 @@
       "availability": "unknown",
       "published": "14.09.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -223,7 +223,7 @@
       "availability": "unknown",
       "published": "18.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -276,7 +276,7 @@
       "availability": "unknown",
       "published": "13.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -329,7 +329,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -753,7 +753,7 @@
       "availability": "unknown",
       "published": "17.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -806,7 +806,7 @@
       "availability": "unknown",
       "published": "14.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -859,7 +859,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -912,7 +912,7 @@
       "availability": "unknown",
       "published": "09.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -965,7 +965,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1018,7 +1018,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1071,7 +1071,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1177,7 +1177,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1230,7 +1230,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1283,7 +1283,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1336,7 +1336,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1389,7 +1389,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1442,7 +1442,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1495,7 +1495,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1548,7 +1548,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T13:06:01.729025+00:00",
       "stale": false,
       "price_history": [
         {
