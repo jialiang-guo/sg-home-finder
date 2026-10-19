@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-18T15:48:53.460522+00:00",
-  "last_success": "2026-10-18T15:48:53.460522+00:00",
+  "updated_at": "2026-10-19T04:38:32.964000+00:00",
+  "last_success": "2026-10-19T04:38:32.964000+00:00",
   "criteria": {
     "budget": 2500,
     "max_age": 10,
@@ -117,7 +117,7 @@
       "availability": "unknown",
       "published": "03.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
       "stale": false,
       "price_history": [
         {
@@ -170,7 +170,7 @@
       "availability": "unknown",
       "published": "14.09.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
       "stale": false,
       "price_history": [
         {
@@ -223,7 +223,7 @@
       "availability": "unknown",
       "published": "18.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
       "stale": false,
       "price_history": [
         {
@@ -276,7 +276,7 @@
       "availability": "unknown",
       "published": "13.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
       "stale": false,
       "price_history": [
         {
@@ -329,7 +329,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
       "stale": false,
       "price_history": [
         {
@@ -383,7 +383,7 @@
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -436,7 +436,7 @@
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -489,7 +489,7 @@
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -542,7 +542,7 @@
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -595,7 +595,7 @@
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -648,7 +648,7 @@
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -701,7 +701,7 @@
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -753,7 +753,7 @@
       "availability": "unknown",
       "published": "17.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
       "stale": false,
       "price_history": [
         {
@@ -806,7 +806,7 @@
       "availability": "unknown",
       "published": "14.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
       "stale": false,
       "price_history": [
         {
@@ -859,7 +859,7 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
       "stale": false,
       "price_history": [
         {
@@ -912,7 +912,7 @@
       "availability": "unknown",
       "published": "09.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
       "stale": false,
       "price_history": [
         {
@@ -965,7 +965,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1018,7 +1018,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1071,7 +1071,7 @@
       "availability": "unknown",
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1125,7 +1125,7 @@
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -1135,6 +1135,430 @@
       "status": "review",
       "listing_key": "RentInSingapore:559796",
       "source_id": "559796"
+    },
+    {
+      "id": "8bae46d10a54c6718c58",
+      "url": "https://rentinsingapore.com.sg/ID808694",
+      "title": "Room for Rent  DOVER PARKVIEW 32 TOWER C #02-06 Econ4",
+      "source": "RentInSingapore",
+      "price": 1300.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": false,
+      "property_type": "hdb",
+      "availability": "unknown",
+      "published": "19.10.2026",
+      "first_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-19T04:38:32.964000+00:00",
+          "price": 1300.0
+        }
+      ],
+      "status": "excluded",
+      "listing_key": "RentInSingapore:808694",
+      "source_id": "808694"
+    },
+    {
+      "id": "9b3141269c5920fa5084",
+      "url": "https://rentinsingapore.com.sg/ID808695",
+      "title": "Room for Rent  DOVER PARKVIEW TOWER D #13-05  PR2",
+      "source": "RentInSingapore",
+      "price": 1300.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "19.10.2026",
+      "first_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-19T04:38:32.964000+00:00",
+          "price": 1300.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:808695",
+      "source_id": "808695"
+    },
+    {
+      "id": "44fb113af5f3fa4a31e5",
+      "url": "https://rentinsingapore.com.sg/ID809015",
+      "title": "Room for Rent DOVER PARK Blk 30 #03-09 COMMON ROOM 3",
+      "source": "RentInSingapore",
+      "price": 1590.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "common",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "19.10.2026",
+      "first_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-19T04:38:32.964000+00:00",
+          "price": 1590.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:809015",
+      "source_id": "809015"
+    },
+    {
+      "id": "49c8beb6c5197571dcf6",
+      "url": "https://rentinsingapore.com.sg/ID809182",
+      "title": "Room for Rent DOVER PARK Blk 30 #03-03 COMMON ROOMS AVAIABLE",
+      "source": "RentInSingapore",
+      "price": 1450.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "common",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "19.10.2026",
+      "first_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-19T04:38:32.964000+00:00",
+          "price": 1450.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:809182",
+      "source_id": "809182"
+    },
+    {
+      "id": "f120a645042418195852",
+      "url": "https://rentinsingapore.com.sg/ID809177",
+      "title": "Room for Rent  DOVER PARK TOWER D #03-03 Masterbedroom3",
+      "source": "RentInSingapore",
+      "price": 2300.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "master",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "19.10.2026",
+      "first_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-19T04:38:32.964000+00:00",
+          "price": 2300.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:809177",
+      "source_id": "809177"
+    },
+    {
+      "id": "f1713f69011401d97bef",
+      "url": "https://rentinsingapore.com.sg/ID809179",
+      "title": "Room for Rent  DOVER PARK TOWER D #03-03 Common Room 4",
+      "source": "RentInSingapore",
+      "price": 1690.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "common",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "19.10.2026",
+      "first_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-19T04:38:32.964000+00:00",
+          "price": 1690.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:809179",
+      "source_id": "809179"
+    },
+    {
+      "id": "bd9fac619d1fe7f1ecf9",
+      "url": "https://rentinsingapore.com.sg/ID809181",
+      "title": "Room for Rent DOVER PARK Blk 30 #03-03 COMMON ROOM 1",
+      "source": "RentInSingapore",
+      "price": 1450.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "common",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "19.10.2026",
+      "first_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-19T04:38:32.964000+00:00",
+          "price": 1450.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:809181",
+      "source_id": "809181"
+    },
+    {
+      "id": "ca07938954d3e9b95333",
+      "url": "https://rentinsingapore.com.sg/ID808802",
+      "title": "Meraprime  for Rent  last  room available right next to Tiong Bahru MRT",
+      "source": "RentInSingapore",
+      "price": 1250.0,
+      "station": "Tiong Bahru",
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "19.10.2026",
+      "first_seen": "2026-10-19T04:38:32.964000+00:00",
+      "last_seen": "2026-10-19T04:38:32.964000+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-19T04:38:32.964000+00:00",
+          "price": 1250.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:808802",
+      "source_id": "808802"
     }
   ]
 }
