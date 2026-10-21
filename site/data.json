@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-20T04:48:03.523817+00:00",
-  "last_success": "2026-10-20T04:48:03.523817+00:00",
+  "updated_at": "2026-10-21T04:43:52.379702+00:00",
+  "last_success": "2026-10-21T04:43:52.379702+00:00",
   "criteria": {
     "budget": 2500,
     "max_age": 10,
@@ -122,7 +122,7 @@
       "availability": "unknown",
       "published": "03.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-20T04:48:03.523817+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
       "stale": false,
       "price_history": [
         {
@@ -175,7 +175,7 @@
       "availability": "unknown",
       "published": "14.09.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-20T04:48:03.523817+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
       "stale": false,
       "price_history": [
         {
@@ -228,7 +228,7 @@
       "availability": "unknown",
       "published": "18.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-20T04:48:03.523817+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
       "stale": false,
       "price_history": [
         {
@@ -281,7 +281,7 @@
       "availability": "unknown",
       "published": "13.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-20T04:48:03.523817+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
       "stale": false,
       "price_history": [
         {
@@ -335,7 +335,7 @@
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-20T04:48:03.523817+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -759,7 +759,7 @@
       "published": "17.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-20T04:48:03.523817+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -812,7 +812,7 @@
       "published": "14.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-20T04:48:03.523817+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -865,7 +865,7 @@
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-20T04:48:03.523817+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -918,7 +918,7 @@
       "published": "09.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-20T04:48:03.523817+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -971,7 +971,7 @@
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-20T04:48:03.523817+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -1024,7 +1024,7 @@
       "published": "05.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
       "last_seen": "2026-10-20T04:48:03.523817+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -1182,7 +1182,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-20T04:48:03.523817+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1235,7 +1235,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-20T04:48:03.523817+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1288,7 +1288,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-20T04:48:03.523817+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1341,7 +1341,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-20T04:48:03.523817+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1394,7 +1394,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-20T04:48:03.523817+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1447,7 +1447,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-20T04:48:03.523817+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1500,7 +1500,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-20T04:48:03.523817+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1554,7 +1554,7 @@
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
       "last_seen": "2026-10-20T04:48:03.523817+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-19T04:38:32.964000+00:00",
@@ -1564,6 +1564,430 @@
       "status": "review",
       "listing_key": "RentInSingapore:808802",
       "source_id": "808802"
+    },
+    {
+      "id": "100774e7ee3b9f8f7e66",
+      "url": "https://rentinsingapore.com.sg/ID646185",
+      "title": "✨ A cozy Super Single Room in a peaceful, convenient location – ideal for students or professionals.",
+      "source": "RentInSingapore",
+      "price": 1415.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": false,
+      "property_type": "unknown",
+      "availability": "unknown",
+      "published": "21.10.2026",
+      "first_seen": "2026-10-21T04:43:52.379702+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-21T04:43:52.379702+00:00",
+          "price": 1415.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:646185",
+      "source_id": "646185"
+    },
+    {
+      "id": "59fb0127cdb9b9d4e621",
+      "url": "https://rentinsingapore.com.sg/ID627857",
+      "title": "Brand new! Condo Pocket Room for Rent, only 5mins bus to Tiong Bahru MRT",
+      "source": "RentInSingapore",
+      "price": 1250.0,
+      "station": "Tiong Bahru",
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "21.10.2026",
+      "first_seen": "2026-10-21T04:43:52.379702+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-21T04:43:52.379702+00:00",
+          "price": 1250.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:627857",
+      "source_id": "627857"
+    },
+    {
+      "id": "f5ff94472b414291fa12",
+      "url": "https://rentinsingapore.com.sg/ID627805",
+      "title": "Near Tiong Bahru MRT - Big Master Room for Rent - CBD Area",
+      "source": "RentInSingapore",
+      "price": 2400.0,
+      "station": "Tiong Bahru",
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "master",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "21.10.2026",
+      "first_seen": "2026-10-21T04:43:52.379702+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-21T04:43:52.379702+00:00",
+          "price": 2400.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:627805",
+      "source_id": "627805"
+    },
+    {
+      "id": "35a6e2a09a940e16e8c9",
+      "url": "https://rentinsingapore.com.sg/ID628286",
+      "title": "Nearby MRT - Just inside CBD - Tiong Bahru , Full Furnish Big Queen Room",
+      "source": "RentInSingapore",
+      "price": 1900.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "21.10.2026",
+      "first_seen": "2026-10-21T04:43:52.379702+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-21T04:43:52.379702+00:00",
+          "price": 1900.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:628286",
+      "source_id": "628286"
+    },
+    {
+      "id": "0a0dd5003d14613775e1",
+      "url": "https://rentinsingapore.com.sg/ID627859",
+      "title": "Rare Queen Common Room In City Fringe",
+      "source": "RentInSingapore",
+      "price": 1850.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "common",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "21.10.2026",
+      "first_seen": "2026-10-21T04:43:52.379702+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-21T04:43:52.379702+00:00",
+          "price": 1850.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:627859",
+      "source_id": "627859"
+    },
+    {
+      "id": "e5f4442c1a5f8c9535ff",
+      "url": "https://rentinsingapore.com.sg/ID628467",
+      "title": "Newly Furnish , Big Queen room with Balcony - - Tiong Bahru MRT",
+      "source": "RentInSingapore",
+      "price": 1900.0,
+      "station": "Tiong Bahru",
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "21.10.2026",
+      "first_seen": "2026-10-21T04:43:52.379702+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-21T04:43:52.379702+00:00",
+          "price": 1900.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:628467",
+      "source_id": "628467"
+    },
+    {
+      "id": "bccf9f6858657d5a48c6",
+      "url": "https://rentinsingapore.com.sg/ID628606",
+      "title": "Opposite to Tiong Bahru MRT - Nicely Furnish Cosy Queen Room",
+      "source": "RentInSingapore",
+      "price": 1500.0,
+      "station": "Tiong Bahru",
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "21.10.2026",
+      "first_seen": "2026-10-21T04:43:52.379702+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-21T04:43:52.379702+00:00",
+          "price": 1500.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:628606",
+      "source_id": "628606"
+    },
+    {
+      "id": "5eccba151f46d5370368",
+      "url": "https://rentinsingapore.com.sg/ID703439",
+      "title": "Convenient location - Condo Queen Room for Rent. @ Tiong Bahru  MRT..",
+      "source": "RentInSingapore",
+      "price": 1750.0,
+      "station": "Tiong Bahru",
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "21.10.2026",
+      "first_seen": "2026-10-21T04:43:52.379702+00:00",
+      "last_seen": "2026-10-21T04:43:52.379702+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-21T04:43:52.379702+00:00",
+          "price": 1750.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:703439",
+      "source_id": "703439"
     }
   ]
 }
