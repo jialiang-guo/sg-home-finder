@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-25T04:38:50.803777+00:00",
-  "last_success": "2026-10-25T04:38:50.803777+00:00",
+  "updated_at": "2026-10-26T04:44:27.354663+00:00",
+  "last_success": "2026-10-26T04:44:27.354663+00:00",
   "criteria": {
     "budget": 2500,
     "max_age": 10,
@@ -117,7 +117,7 @@
       "availability": "unknown",
       "published": "03.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -170,7 +170,7 @@
       "availability": "unknown",
       "published": "14.09.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1177,7 +1177,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1230,7 +1230,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1283,7 +1283,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1336,7 +1336,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1389,7 +1389,7 @@
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1601,7 +1601,7 @@
       "availability": "unknown",
       "published": "21.10.2026",
       "first_seen": "2026-10-21T04:43:52.379702+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1654,7 +1654,7 @@
       "availability": "unknown",
       "published": "21.10.2026",
       "first_seen": "2026-10-21T04:43:52.379702+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1707,7 +1707,7 @@
       "availability": "unknown",
       "published": "21.10.2026",
       "first_seen": "2026-10-21T04:43:52.379702+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1760,7 +1760,7 @@
       "availability": "unknown",
       "published": "21.10.2026",
       "first_seen": "2026-10-21T04:43:52.379702+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1813,7 +1813,7 @@
       "availability": "unknown",
       "published": "21.10.2026",
       "first_seen": "2026-10-21T04:43:52.379702+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1866,7 +1866,7 @@
       "availability": "unknown",
       "published": "21.10.2026",
       "first_seen": "2026-10-21T04:43:52.379702+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1920,7 +1920,7 @@
       "published": "21.10.2026",
       "first_seen": "2026-10-21T04:43:52.379702+00:00",
       "last_seen": "2026-10-25T04:38:50.803777+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-21T04:43:52.379702+00:00",
@@ -2025,7 +2025,7 @@
       "availability": "unknown",
       "published": "22.10.2026",
       "first_seen": "2026-10-22T04:41:53.760185+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -2079,7 +2079,7 @@
       "published": "21.10.2026",
       "first_seen": "2026-10-22T04:41:53.760185+00:00",
       "last_seen": "2026-10-25T04:38:50.803777+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-22T04:41:53.760185+00:00",
@@ -2131,7 +2131,7 @@
       "availability": "unknown",
       "published": "21.10.2026",
       "first_seen": "2026-10-22T04:41:53.760185+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -2184,7 +2184,7 @@
       "availability": "unknown",
       "published": "23.10.2026",
       "first_seen": "2026-10-23T04:47:04.235577+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -2237,7 +2237,7 @@
       "availability": "unknown",
       "published": "23.10.2026",
       "first_seen": "2026-10-24T04:34:25.384122+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -2290,7 +2290,7 @@
       "availability": "unknown",
       "published": "23.10.2026",
       "first_seen": "2026-10-24T04:34:25.384122+00:00",
-      "last_seen": "2026-10-25T04:38:50.803777+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
       "stale": false,
       "price_history": [
         {
@@ -2301,6 +2301,112 @@
       "status": "review",
       "listing_key": "RentInSingapore:772931",
       "source_id": "772931"
+    },
+    {
+      "id": "e2e1a5f9d8c509f9cf7d",
+      "url": "https://rentinsingapore.com.sg/ID760563",
+      "title": "●LADY BEDSPACES●@🟢🟡BUONA VISTA MRT(near A*STAR, NUS, SIM, NUH, SP, ESSEC, MDIS, BIOPOLIS@1North",
+      "source": "RentInSingapore",
+      "price": 530.0,
+      "station": "Buona Vista",
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": false,
+      "property_type": "hdb",
+      "availability": "unknown",
+      "published": "25.10.2026",
+      "first_seen": "2026-10-26T04:44:27.354663+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-26T04:44:27.354663+00:00",
+          "price": 530.0
+        }
+      ],
+      "status": "excluded",
+      "listing_key": "RentInSingapore:760563",
+      "source_id": "760563"
+    },
+    {
+      "id": "9597581d9129ba906ecf",
+      "url": "https://rentinsingapore.com.sg/ID822271",
+      "title": "Tiong Bahru Room for Rent | Female Only | Near MRT | Fully Furnished | Aircon & WiFi | $900",
+      "source": "RentInSingapore",
+      "price": 900.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": false,
+      "property_type": "hdb",
+      "availability": "unknown",
+      "published": "25.10.2026",
+      "first_seen": "2026-10-26T04:44:27.354663+00:00",
+      "last_seen": "2026-10-26T04:44:27.354663+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-10-26T04:44:27.354663+00:00",
+          "price": 900.0
+        }
+      ],
+      "status": "excluded",
+      "listing_key": "RentInSingapore:822271",
+      "source_id": "822271"
     }
   ]
 }
