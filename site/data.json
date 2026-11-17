@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-16T06:25:11.990510+00:00",
-  "last_success": "2026-11-16T06:25:11.990510+00:00",
+  "updated_at": "2026-11-17T07:52:45.093748+00:00",
+  "last_success": "2026-11-17T07:52:45.093748+00:00",
   "criteria": {
     "budget": 2500,
     "max_age": 10,
@@ -33,7 +33,12 @@
   "source_status": {
     "attempted": 20,
     "refreshed": 20,
-    "errors": []
+    "errors": [
+      {
+        "source": "RentInSingapore discovery",
+        "error": "The read operation timed out"
+      }
+    ]
   },
   "listings": [
     {
@@ -117,7 +122,7 @@
       "availability": "unknown",
       "published": "03.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-11-16T06:25:11.990510+00:00",
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
       "stale": false,
       "price_history": [
         {
@@ -170,7 +175,7 @@
       "availability": "unknown",
       "published": "15.11.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-11-16T06:25:11.990510+00:00",
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
       "stale": false,
       "price_history": [
         {
@@ -223,8 +228,8 @@
       "availability": "unknown",
       "published": "18.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-21T04:43:52.379702+00:00",
-      "stale": true,
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -240,7 +245,7 @@
       "url": "https://rentinsingapore.com.sg/ID373167",
       "title": "Great place with nice view & friendly landlord",
       "source": "RentInSingapore",
-      "price": 1250.0,
+      "price": 1300.0,
       "station": null,
       "walk_minutes": null,
       "amenities": {
@@ -276,12 +281,16 @@
       "availability": "unknown",
       "published": "13.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-21T04:43:52.379702+00:00",
-      "stale": true,
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
           "price": 1250.0
+        },
+        {
+          "at": "2026-11-17T07:52:45.093748+00:00",
+          "price": 1300.0
         }
       ],
       "status": "excluded",
@@ -329,8 +338,8 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-20T04:48:03.523817+00:00",
-      "stale": true,
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -382,8 +391,8 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": true,
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -435,8 +444,8 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": true,
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -488,8 +497,8 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": true,
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -541,8 +550,8 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": true,
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -594,8 +603,8 @@
       "availability": "unknown",
       "published": "12.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-10-18T15:48:53.460522+00:00",
-      "stale": true,
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-10-18T14:23:19.630857+00:00",
@@ -2238,7 +2247,7 @@
       "published": "23.10.2026",
       "first_seen": "2026-10-24T04:34:25.384122+00:00",
       "last_seen": "2026-11-16T06:25:11.990510+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-10-24T04:34:25.384122+00:00",
@@ -2930,7 +2939,7 @@
       "availability": "unknown",
       "published": "27.10.2026",
       "first_seen": "2026-10-28T05:39:39.872697+00:00",
-      "last_seen": "2026-11-16T06:25:11.990510+00:00",
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
       "stale": false,
       "price_history": [
         {
@@ -4149,7 +4158,7 @@
       "availability": "unknown",
       "published": "04.11.2026",
       "first_seen": "2026-11-05T06:42:45.174110+00:00",
-      "last_seen": "2026-11-16T06:25:11.990510+00:00",
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
       "stale": false,
       "price_history": [
         {
@@ -4308,7 +4317,7 @@
       "availability": "unknown",
       "published": "06.11.2026",
       "first_seen": "2026-11-07T05:55:56.904372+00:00",
-      "last_seen": "2026-11-16T06:25:11.990510+00:00",
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
       "stale": false,
       "price_history": [
         {
@@ -4361,7 +4370,7 @@
       "availability": "unknown",
       "published": "31.10.2026",
       "first_seen": "2026-11-07T05:55:56.904372+00:00",
-      "last_seen": "2026-11-16T06:25:11.990510+00:00",
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
       "stale": false,
       "price_history": [
         {
@@ -4520,7 +4529,7 @@
       "availability": "unknown",
       "published": "09.11.2026",
       "first_seen": "2026-11-09T06:23:18.425137+00:00",
-      "last_seen": "2026-11-16T06:25:11.990510+00:00",
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
       "stale": false,
       "price_history": [
         {
@@ -4626,7 +4635,7 @@
       "availability": "unknown",
       "published": "11.11.2026",
       "first_seen": "2026-11-11T06:13:23.281828+00:00",
-      "last_seen": "2026-11-16T06:25:11.990510+00:00",
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
       "stale": false,
       "price_history": [
         {
@@ -4680,7 +4689,7 @@
       "published": "11.11.2026",
       "first_seen": "2026-11-11T06:13:23.281828+00:00",
       "last_seen": "2026-11-16T06:25:11.990510+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-11T06:13:23.281828+00:00",
@@ -4733,7 +4742,7 @@
       "published": "11.11.2026",
       "first_seen": "2026-11-11T06:13:23.281828+00:00",
       "last_seen": "2026-11-16T06:25:11.990510+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-11T06:13:23.281828+00:00",
@@ -4786,7 +4795,7 @@
       "published": "10.11.2026",
       "first_seen": "2026-11-11T06:13:23.281828+00:00",
       "last_seen": "2026-11-16T06:25:11.990510+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-11T06:13:23.281828+00:00",
@@ -4839,7 +4848,7 @@
       "published": "11.11.2026",
       "first_seen": "2026-11-12T07:07:50.587876+00:00",
       "last_seen": "2026-11-16T06:25:11.990510+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-12T07:07:50.587876+00:00",
@@ -4855,7 +4864,7 @@
       "url": "https://rentinsingapore.com.sg/ID815658",
       "title": "Room for Rent – ECON3 @ Dover Parkview Tower D #13-05",
       "source": "RentInSingapore",
-      "price": 1250.0,
+      "price": 1190.0,
       "station": null,
       "walk_minutes": null,
       "amenities": {
@@ -4891,12 +4900,16 @@
       "availability": "unknown",
       "published": "13.11.2026",
       "first_seen": "2026-11-13T06:41:57.360417+00:00",
-      "last_seen": "2026-11-15T06:26:38.425075+00:00",
-      "stale": true,
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-11-13T06:41:57.360417+00:00",
           "price": 1250.0
+        },
+        {
+          "at": "2026-11-17T07:52:45.093748+00:00",
+          "price": 1190.0
         }
       ],
       "status": "review",
@@ -4945,7 +4958,7 @@
       "published": "13.11.2026",
       "first_seen": "2026-11-13T06:41:57.360417+00:00",
       "last_seen": "2026-11-16T06:25:11.990510+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-13T06:41:57.360417+00:00",
@@ -4998,7 +5011,7 @@
       "published": "13.11.2026",
       "first_seen": "2026-11-13T06:41:57.360417+00:00",
       "last_seen": "2026-11-16T06:25:11.990510+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-13T06:41:57.360417+00:00",
@@ -5051,7 +5064,7 @@
       "published": "13.11.2026",
       "first_seen": "2026-11-13T06:41:57.360417+00:00",
       "last_seen": "2026-11-16T06:25:11.990510+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-13T06:41:57.360417+00:00",
@@ -5104,7 +5117,7 @@
       "published": "12.11.2026",
       "first_seen": "2026-11-13T06:41:57.360417+00:00",
       "last_seen": "2026-11-16T06:25:11.990510+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-13T06:41:57.360417+00:00",
@@ -5156,7 +5169,7 @@
       "availability": "unknown",
       "published": "13.11.2026",
       "first_seen": "2026-11-14T06:19:07.124465+00:00",
-      "last_seen": "2026-11-16T06:25:11.990510+00:00",
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5209,7 +5222,7 @@
       "availability": "unknown",
       "published": "15.11.2026",
       "first_seen": "2026-11-16T06:25:11.990510+00:00",
-      "last_seen": "2026-11-16T06:25:11.990510+00:00",
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5262,7 +5275,7 @@
       "availability": "unknown",
       "published": "15.11.2026",
       "first_seen": "2026-11-16T06:25:11.990510+00:00",
-      "last_seen": "2026-11-16T06:25:11.990510+00:00",
+      "last_seen": "2026-11-17T07:52:45.093748+00:00",
       "stale": false,
       "price_history": [
         {
