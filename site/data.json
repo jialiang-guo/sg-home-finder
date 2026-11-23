@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-22T06:44:44.011206+00:00",
-  "last_success": "2026-11-22T06:44:44.011206+00:00",
+  "updated_at": "2026-11-23T07:33:58.429327+00:00",
+  "last_success": "2026-11-23T07:33:58.429327+00:00",
   "criteria": {
     "budget": 2500,
     "max_age": 10,
@@ -117,7 +117,7 @@
       "availability": "unknown",
       "published": "03.10.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -170,7 +170,7 @@
       "availability": "unknown",
       "published": "15.11.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -4313,7 +4313,7 @@
       "published": "06.11.2026",
       "first_seen": "2026-11-07T05:55:56.904372+00:00",
       "last_seen": "2026-11-22T06:44:44.011206+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-07T05:55:56.904372+00:00",
@@ -4524,7 +4524,7 @@
       "availability": "unknown",
       "published": "09.11.2026",
       "first_seen": "2026-11-09T06:23:18.425137+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -4630,7 +4630,7 @@
       "availability": "unknown",
       "published": "11.11.2026",
       "first_seen": "2026-11-11T06:13:23.281828+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -4895,7 +4895,7 @@
       "availability": "unknown",
       "published": "13.11.2026",
       "first_seen": "2026-11-13T06:41:57.360417+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5217,7 +5217,7 @@
       "availability": "unknown",
       "published": "15.11.2026",
       "first_seen": "2026-11-16T06:25:11.990510+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5270,7 +5270,7 @@
       "availability": "unknown",
       "published": "15.11.2026",
       "first_seen": "2026-11-16T06:25:11.990510+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5323,7 +5323,7 @@
       "availability": "unknown",
       "published": "17.11.2026",
       "first_seen": "2026-11-18T07:25:10.350784+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5377,7 +5377,7 @@
       "published": "17.11.2026",
       "first_seen": "2026-11-18T07:25:10.350784+00:00",
       "last_seen": "2026-11-22T06:44:44.011206+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-18T07:25:10.350784+00:00",
@@ -5482,7 +5482,7 @@
       "availability": "unknown",
       "published": "19.11.2026",
       "first_seen": "2026-11-19T07:22:18.295952+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5536,7 +5536,7 @@
       "published": "19.11.2026",
       "first_seen": "2026-11-19T07:22:18.295952+00:00",
       "last_seen": "2026-11-22T06:44:44.011206+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-19T07:22:18.295952+00:00",
@@ -5588,7 +5588,7 @@
       "availability": "unknown",
       "published": "20.11.2026",
       "first_seen": "2026-11-20T07:12:37.276114+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5641,7 +5641,7 @@
       "availability": "unknown",
       "published": "19.11.2026",
       "first_seen": "2026-11-20T07:12:37.276114+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5694,7 +5694,7 @@
       "availability": "unknown",
       "published": "19.11.2026",
       "first_seen": "2026-11-20T07:12:37.276114+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5747,7 +5747,7 @@
       "availability": "unknown",
       "published": "21.11.2026",
       "first_seen": "2026-11-21T07:03:39.504056+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5800,7 +5800,7 @@
       "availability": "unknown",
       "published": "20.11.2026",
       "first_seen": "2026-11-21T07:03:39.504056+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5854,7 +5854,7 @@
       "published": "19.11.2026",
       "first_seen": "2026-11-21T07:03:39.504056+00:00",
       "last_seen": "2026-11-22T06:44:44.011206+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-21T07:03:39.504056+00:00",
@@ -5906,7 +5906,7 @@
       "availability": "unknown",
       "published": "22.11.2026",
       "first_seen": "2026-11-22T06:44:44.011206+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5959,7 +5959,7 @@
       "availability": "unknown",
       "published": "22.11.2026",
       "first_seen": "2026-11-22T06:44:44.011206+00:00",
-      "last_seen": "2026-11-22T06:44:44.011206+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5970,6 +5970,218 @@
       "status": "excluded",
       "listing_key": "RentInSingapore:761636",
       "source_id": "761636"
+    },
+    {
+      "id": "17bfaf85698dbb994819",
+      "url": "https://rentinsingapore.com.sg/ID763508",
+      "title": "Aircon Room For Rent",
+      "source": "RentInSingapore",
+      "price": 1200.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": false,
+      "property_type": "hdb",
+      "availability": "unknown",
+      "published": "22.11.2026",
+      "first_seen": "2026-11-23T07:33:58.429327+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-11-23T07:33:58.429327+00:00",
+          "price": 1200.0
+        }
+      ],
+      "status": "excluded",
+      "listing_key": "RentInSingapore:763508",
+      "source_id": "763508"
+    },
+    {
+      "id": "ce43c98449ad1b3b453e",
+      "url": "https://rentinsingapore.com.sg/ID707511",
+      "title": "Tiong Bahru MRT - Full Funrish Big Queen Room for Rent",
+      "source": "RentInSingapore",
+      "price": 1600.0,
+      "station": "Tiong Bahru",
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "22.11.2026",
+      "first_seen": "2026-11-23T07:33:58.429327+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-11-23T07:33:58.429327+00:00",
+          "price": 1600.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:707511",
+      "source_id": "707511"
+    },
+    {
+      "id": "4e7da22efeb3d625ecc0",
+      "url": "https://rentinsingapore.com.sg/ID707565",
+      "title": "Single Room for Rent with Own Toilet - Expats Welcome.",
+      "source": "RentInSingapore",
+      "price": 800.0,
+      "station": null,
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "22.11.2026",
+      "first_seen": "2026-11-23T07:33:58.429327+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-11-23T07:33:58.429327+00:00",
+          "price": 800.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:707565",
+      "source_id": "707565"
+    },
+    {
+      "id": "9f2ceb8683c7f10fcd5b",
+      "url": "https://rentinsingapore.com.sg/ID653757",
+      "title": "Big Queen Room @ Tiong Bahru MRT",
+      "source": "RentInSingapore",
+      "price": 1850.0,
+      "station": "Tiong Bahru",
+      "walk_minutes": null,
+      "amenities": {
+        "gym": {
+          "value": null,
+          "evidence": []
+        },
+        "pool": {
+          "value": null,
+          "evidence": []
+        },
+        "bbq": {
+          "value": null,
+          "evidence": []
+        },
+        "tennis": {
+          "value": null,
+          "evidence": []
+        },
+        "playground": {
+          "value": null,
+          "evidence": []
+        },
+        "security": {
+          "value": null,
+          "evidence": []
+        }
+      },
+      "room": "unknown",
+      "built": null,
+      "condo": true,
+      "property_type": "condo",
+      "availability": "unknown",
+      "published": "22.11.2026",
+      "first_seen": "2026-11-23T07:33:58.429327+00:00",
+      "last_seen": "2026-11-23T07:33:58.429327+00:00",
+      "stale": false,
+      "price_history": [
+        {
+          "at": "2026-11-23T07:33:58.429327+00:00",
+          "price": 1850.0
+        }
+      ],
+      "status": "review",
+      "listing_key": "RentInSingapore:653757",
+      "source_id": "653757"
     }
   ]
 }
