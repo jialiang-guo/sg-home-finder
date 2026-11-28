@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-27T08:26:33.359209+00:00",
-  "last_success": "2026-11-27T08:26:33.359209+00:00",
+  "updated_at": "2026-11-28T07:45:24.834391+00:00",
+  "last_success": "2026-11-28T07:45:24.834391+00:00",
   "criteria": {
     "budget": 2500,
     "max_age": 10,
@@ -32,8 +32,25 @@
   },
   "source_status": {
     "attempted": 20,
-    "refreshed": 20,
-    "errors": []
+    "refreshed": 16,
+    "errors": [
+      {
+        "url": "https://rentinsingapore.com.sg/ID761043",
+        "error": "'utf-8' codec can't decode byte 0xed in position 15020: invalid continuation byte"
+      },
+      {
+        "url": "https://rentinsingapore.com.sg/ID760858",
+        "error": "'utf-8' codec can't decode byte 0xed in position 14936: invalid continuation byte"
+      },
+      {
+        "url": "https://rentinsingapore.com.sg/ID760243",
+        "error": "'utf-8' codec can't decode byte 0xed in position 14939: invalid continuation byte"
+      },
+      {
+        "url": "https://rentinsingapore.com.sg/ID760092",
+        "error": "'utf-8' codec can't decode byte 0xed in position 14936: invalid continuation byte"
+      }
+    ]
   },
   "listings": [
     {
@@ -135,7 +152,7 @@
       "title": "CR4 – Common Room for Rent at Dover Parkview",
       "source": "RentInSingapore",
       "price": 1690.0,
-      "station": null,
+      "station": "Buona Vista",
       "walk_minutes": null,
       "amenities": {
         "gym": {
@@ -170,7 +187,7 @@
       "availability": "unknown",
       "published": "15.11.2026",
       "first_seen": "2026-10-18T14:23:19.630857+00:00",
-      "last_seen": "2026-11-27T08:26:33.359209+00:00",
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
       "stale": false,
       "price_history": [
         {
@@ -1143,10 +1160,10 @@
     {
       "id": "8bae46d10a54c6718c58",
       "url": "https://rentinsingapore.com.sg/ID808694",
-      "title": "Room for Rent  DOVER PARKVIEW 32 TOWER C #02-06 Econ4",
+      "title": "Room for Rent  DOVER PARKVIEW 32 TOWER C #02-06 CR3",
       "source": "RentInSingapore",
-      "price": 1300.0,
-      "station": null,
+      "price": 1590.0,
+      "station": "one-north",
       "walk_minutes": null,
       "amenities": {
         "gym": {
@@ -1176,17 +1193,21 @@
       },
       "room": "unknown",
       "built": null,
-      "condo": false,
+      "condo": true,
       "property_type": "hdb",
       "availability": "unknown",
       "published": "19.10.2026",
       "first_seen": "2026-10-19T04:38:32.964000+00:00",
-      "last_seen": "2026-11-09T06:23:18.425137+00:00",
-      "stale": true,
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-10-19T04:38:32.964000+00:00",
           "price": 1300.0
+        },
+        {
+          "at": "2026-11-28T07:45:24.834391+00:00",
+          "price": 1590.0
         }
       ],
       "status": "excluded",
@@ -1569,7 +1590,7 @@
       "url": "https://rentinsingapore.com.sg/ID646185",
       "title": "✨ A cozy Super Single Room in a peaceful, convenient location – ideal for students or professionals.",
       "source": "RentInSingapore",
-      "price": 1415.0,
+      "price": 1600.0,
       "station": null,
       "walk_minutes": null,
       "amenities": {
@@ -1605,12 +1626,16 @@
       "availability": "unknown",
       "published": "21.10.2026",
       "first_seen": "2026-10-21T04:43:52.379702+00:00",
-      "last_seen": "2026-11-10T07:15:17.840684+00:00",
-      "stale": true,
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-10-21T04:43:52.379702+00:00",
           "price": 1415.0
+        },
+        {
+          "at": "2026-11-28T07:45:24.834391+00:00",
+          "price": 1600.0
         }
       ],
       "status": "review",
@@ -2203,15 +2228,17 @@
     {
       "id": "cc4f0cfc196d21f5099c",
       "url": "https://rentinsingapore.com.sg/ID784027",
-      "title": "Room with PRIVATE BALCONY for 1Pax!",
+      "title": "Condo Room with PRIVATE BALCONY near NUS",
       "source": "RentInSingapore",
-      "price": 1550.0,
-      "station": null,
+      "price": 1480.0,
+      "station": "Buona Vista",
       "walk_minutes": null,
       "amenities": {
         "gym": {
-          "value": null,
-          "evidence": []
+          "value": true,
+          "evidence": [
+            "🔑 Full condominium amenities (Multiple swimming pools, gym and tennis courts)"
+          ]
         },
         "pool": {
           "value": null,
@@ -2222,8 +2249,10 @@
           "evidence": []
         },
         "tennis": {
-          "value": null,
-          "evidence": []
+          "value": true,
+          "evidence": [
+            "🔑 Full condominium amenities (Multiple swimming pools, gym and tennis courts)"
+          ]
         },
         "playground": {
           "value": null,
@@ -2241,8 +2270,8 @@
       "availability": "unknown",
       "published": "23.10.2026",
       "first_seen": "2026-10-24T04:34:25.384122+00:00",
-      "last_seen": "2026-11-16T06:25:11.990510+00:00",
-      "stale": true,
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-10-24T04:34:25.384122+00:00",
@@ -2251,6 +2280,10 @@
         {
           "at": "2026-11-03T06:44:52.546764+00:00",
           "price": 1550.0
+        },
+        {
+          "at": "2026-11-28T07:45:24.834391+00:00",
+          "price": 1480.0
         }
       ],
       "status": "review",
@@ -2934,8 +2967,8 @@
       "availability": "unknown",
       "published": "27.10.2026",
       "first_seen": "2026-10-28T05:39:39.872697+00:00",
-      "last_seen": "2026-11-17T07:52:45.093748+00:00",
-      "stale": true,
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-10-28T05:39:39.872697+00:00",
@@ -4277,7 +4310,7 @@
       "title": "Room for Rent near Essec ,Insead,NUS,Curtin  DOVER PARK Blk 30 #03-09 COMMON ROOMS",
       "source": "RentInSingapore",
       "price": 1690.0,
-      "station": null,
+      "station": "one-north",
       "walk_minutes": null,
       "amenities": {
         "gym": {
@@ -4305,15 +4338,15 @@
           "evidence": []
         }
       },
-      "room": "common",
+      "room": "master",
       "built": null,
       "condo": true,
       "property_type": "condo",
       "availability": "unknown",
       "published": "06.11.2026",
       "first_seen": "2026-11-07T05:55:56.904372+00:00",
-      "last_seen": "2026-11-26T08:13:56.165087+00:00",
-      "stale": true,
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
+      "stale": false,
       "price_history": [
         {
           "at": "2026-11-07T05:55:56.904372+00:00",
@@ -4497,12 +4530,16 @@
           "evidence": []
         },
         "pool": {
-          "value": null,
-          "evidence": []
+          "value": true,
+          "evidence": [
+            "Private Apartment with Condo Facilities - Swimming Pool, BBQ Pit"
+          ]
         },
         "bbq": {
-          "value": null,
-          "evidence": []
+          "value": true,
+          "evidence": [
+            "Private Apartment with Condo Facilities - Swimming Pool, BBQ Pit"
+          ]
         },
         "tennis": {
           "value": null,
@@ -4524,7 +4561,7 @@
       "availability": "unknown",
       "published": "09.11.2026",
       "first_seen": "2026-11-09T06:23:18.425137+00:00",
-      "last_seen": "2026-11-27T08:26:33.359209+00:00",
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
       "stale": false,
       "price_history": [
         {
@@ -4603,12 +4640,16 @@
           "evidence": []
         },
         "pool": {
-          "value": null,
-          "evidence": []
+          "value": true,
+          "evidence": [
+            "Private Apartment with Condo Facilities - Swimming Pool, BBQ Pit"
+          ]
         },
         "bbq": {
-          "value": null,
-          "evidence": []
+          "value": true,
+          "evidence": [
+            "Private Apartment with Condo Facilities - Swimming Pool, BBQ Pit"
+          ]
         },
         "tennis": {
           "value": null,
@@ -4630,7 +4671,7 @@
       "availability": "unknown",
       "published": "11.11.2026",
       "first_seen": "2026-11-11T06:13:23.281828+00:00",
-      "last_seen": "2026-11-27T08:26:33.359209+00:00",
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
       "stale": false,
       "price_history": [
         {
@@ -4860,7 +4901,7 @@
       "title": "Room for Rent – ECON3 @ Dover Parkview Tower D #13-05",
       "source": "RentInSingapore",
       "price": 1190.0,
-      "station": null,
+      "station": "Buona Vista",
       "walk_minutes": null,
       "amenities": {
         "gym": {
@@ -4895,7 +4936,7 @@
       "availability": "unknown",
       "published": "13.11.2026",
       "first_seen": "2026-11-13T06:41:57.360417+00:00",
-      "last_seen": "2026-11-27T08:26:33.359209+00:00",
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5182,7 +5223,7 @@
       "title": "Common Room (CR4) for Rent at Dover Parkview Tower D",
       "source": "RentInSingapore",
       "price": 1690.0,
-      "station": null,
+      "station": "Buona Vista",
       "walk_minutes": null,
       "amenities": {
         "gym": {
@@ -5217,7 +5258,7 @@
       "availability": "unknown",
       "published": "15.11.2026",
       "first_seen": "2026-11-16T06:25:11.990510+00:00",
-      "last_seen": "2026-11-27T08:26:33.359209+00:00",
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5270,7 +5311,7 @@
       "availability": "unknown",
       "published": "15.11.2026",
       "first_seen": "2026-11-16T06:25:11.990510+00:00",
-      "last_seen": "2026-11-27T08:26:33.359209+00:00",
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5318,12 +5359,12 @@
       },
       "room": "master",
       "built": null,
-      "condo": false,
+      "condo": true,
       "property_type": "hdb",
       "availability": "unknown",
       "published": "17.11.2026",
       "first_seen": "2026-11-18T07:25:10.350784+00:00",
-      "last_seen": "2026-11-27T08:26:33.359209+00:00",
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5455,12 +5496,16 @@
           "evidence": []
         },
         "pool": {
-          "value": null,
-          "evidence": []
+          "value": true,
+          "evidence": [
+            "Private Apartment with Condo Facilities - Swimming Pool, BBQ Pit"
+          ]
         },
         "bbq": {
-          "value": null,
-          "evidence": []
+          "value": true,
+          "evidence": [
+            "Private Apartment with Condo Facilities - Swimming Pool, BBQ Pit"
+          ]
         },
         "tennis": {
           "value": null,
@@ -5482,7 +5527,7 @@
       "availability": "unknown",
       "published": "19.11.2026",
       "first_seen": "2026-11-19T07:22:18.295952+00:00",
-      "last_seen": "2026-11-27T08:26:33.359209+00:00",
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5588,7 +5633,7 @@
       "availability": "unknown",
       "published": "20.11.2026",
       "first_seen": "2026-11-20T07:12:37.276114+00:00",
-      "last_seen": "2026-11-27T08:26:33.359209+00:00",
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
       "stale": false,
       "price_history": [
         {
@@ -5720,12 +5765,16 @@
           "evidence": []
         },
         "pool": {
-          "value": null,
-          "evidence": []
+          "value": true,
+          "evidence": [
+            "Private Apartment with Condo Facilities - Swimming Pool, BBQ Pit"
+          ]
         },
         "bbq": {
-          "value": null,
-          "evidence": []
+          "value": true,
+          "evidence": [
+            "Private Apartment with Condo Facilities - Swimming Pool, BBQ Pit"
+          ]
         },
         "tennis": {
           "value": null,
@@ -5747,7 +5796,7 @@
       "availability": "unknown",
       "published": "21.11.2026",
       "first_seen": "2026-11-21T07:03:39.504056+00:00",
-      "last_seen": "2026-11-27T08:26:33.359209+00:00",
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
       "stale": false,
       "price_history": [
         {
@@ -6012,7 +6061,7 @@
       "availability": "unknown",
       "published": "22.11.2026",
       "first_seen": "2026-11-23T07:33:58.429327+00:00",
-      "last_seen": "2026-11-27T08:26:33.359209+00:00",
+      "last_seen": "2026-11-28T07:45:24.834391+00:00",
       "stale": false,
       "price_history": [
         {
@@ -6066,7 +6115,7 @@
       "published": "22.11.2026",
       "first_seen": "2026-11-23T07:33:58.429327+00:00",
       "last_seen": "2026-11-27T08:26:33.359209+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-23T07:33:58.429327+00:00",
@@ -6119,7 +6168,7 @@
       "published": "22.11.2026",
       "first_seen": "2026-11-23T07:33:58.429327+00:00",
       "last_seen": "2026-11-27T08:26:33.359209+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-23T07:33:58.429327+00:00",
@@ -6172,7 +6221,7 @@
       "published": "22.11.2026",
       "first_seen": "2026-11-23T07:33:58.429327+00:00",
       "last_seen": "2026-11-27T08:26:33.359209+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-23T07:33:58.429327+00:00",
@@ -6225,7 +6274,7 @@
       "published": "24.11.2026",
       "first_seen": "2026-11-24T09:52:06.693970+00:00",
       "last_seen": "2026-11-27T08:26:33.359209+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-24T09:52:06.693970+00:00",
@@ -6278,7 +6327,7 @@
       "published": "25.11.2026",
       "first_seen": "2026-11-26T08:13:56.165087+00:00",
       "last_seen": "2026-11-27T08:26:33.359209+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-26T08:13:56.165087+00:00",
@@ -6331,7 +6380,7 @@
       "published": "25.11.2026",
       "first_seen": "2026-11-26T08:13:56.165087+00:00",
       "last_seen": "2026-11-27T08:26:33.359209+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-26T08:13:56.165087+00:00",
@@ -6384,7 +6433,7 @@
       "published": "27.11.2026",
       "first_seen": "2026-11-27T08:26:33.359209+00:00",
       "last_seen": "2026-11-27T08:26:33.359209+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-27T08:26:33.359209+00:00",
@@ -6437,7 +6486,7 @@
       "published": "26.11.2026",
       "first_seen": "2026-11-27T08:26:33.359209+00:00",
       "last_seen": "2026-11-27T08:26:33.359209+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-27T08:26:33.359209+00:00",
@@ -6490,7 +6539,7 @@
       "published": "26.11.2026",
       "first_seen": "2026-11-27T08:26:33.359209+00:00",
       "last_seen": "2026-11-27T08:26:33.359209+00:00",
-      "stale": false,
+      "stale": true,
       "price_history": [
         {
           "at": "2026-11-27T08:26:33.359209+00:00",
